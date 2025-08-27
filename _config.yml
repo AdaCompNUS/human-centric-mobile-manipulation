@@ -61,6 +61,8 @@ last_updated: true
 collections:
   speakers:
     output: true
+  panelists:
+    output: true
   organizers:
     sort_by: sequence_id
     output: true

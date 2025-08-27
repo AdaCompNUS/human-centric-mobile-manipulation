@@ -29,7 +29,8 @@ In particular, this workshop aims to answer the questions:
 
 ### <center>Speakers and Panelists</center>
 
-{% include people_grid.html people=site.speakers image_subdir="speakers" %}
+{% assign speakers_and_panelists = site.speakers | concat: site.panelists %}
+{% include people_grid.html people=speakers_and_panelists image_subdir="speakers" %}
 <br>
 
 ### <center>Call for Videos</center>
