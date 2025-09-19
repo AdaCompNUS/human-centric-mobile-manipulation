@@ -86,14 +86,14 @@ We are accepting paper submissions related to generalization and failure handlin
 
 <br>
 <p style="text-align: center;">
-<em>Time to 2nd call for papers deadline</em> (19 Sep 2025):
+<em>Time to 2nd call for papers deadline</em> (<s>19 Sep 2025</s> <font color="red">26 Sep 2025</font>):
 </p>
 
 <center>
 <div id="countdown2" style="font-size: 1.5rem; font-weight: bold;"></div>
 <script>
   // Countdown 2
-  const countdownDate2 = new Date("2025-09-20T00:00:00").getTime();
+  const countdownDate2 = new Date("2025-09-27T20:00:00").getTime();
   const countdownElement2 = document.getElementById("countdown2");
 
   const updateCountdown2 = () => {

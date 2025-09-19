@@ -33,14 +33,14 @@ We invite contributions in areas including, but not limited to the following nav
 ### Submission Instructions and Important Dates:
 Submissions should be 2-4 pages (not including references), following the IROS format. The submission and review process will proceed through [OpenReview](https://openreview.net/group?id=IEEE.org/IROS/2025/Workshop/OWN). We encourage authors to include videos, code, or data as supplementary material, either in a zip file or through external links.
 
-The submission portal will open on 1st Aug 2025, and continuously accept submissions until 19th Sep 2025. We offer two calls for papers, with the first closing on 15th Aug 2025. Papers submitted by the first deadline will receive a review before the IROS early bird registration deadline. The second deadline on 19th Sep 2025 is the final deadline for all paper submissions.
+The submission portal will open on 1st Aug 2025, and continuously accept submissions until 26th Sep 2025. We offer two calls for papers, with the first closing on 15th Aug 2025. Papers submitted by the first deadline will receive a review before the IROS early bird registration deadline. The second deadline on 19th Sep 2025 is the final deadline for all paper submissions.
 
 **Important Dates**  (All deadlines are AoE):
 
 * Submission portal opens: ~~1st Aug 2025~~
 * _1st_ call for papers deadline: ~~15th Aug 2025~~
 * Notification of acceptance (_1st_ call): ~~29th Aug 2025~~
-* _2nd_ call for papers deadline: 19th Sep 2025
+* _2nd_ call for papers deadline: ~~19th Sep 2025~~ <font color="red">26th Sep 2025</font>
 * Notification of acceptance (_2nd_ call): 3rd Oct 2025
 * Camera-ready submission due date (_1st_ & _2nd_ call): 10th Oct 2025
 * Workshop date: 20th Oct 2025 (PM)
