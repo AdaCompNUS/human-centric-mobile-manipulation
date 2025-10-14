@@ -5,5 +5,6 @@ authors: Shaoan Wang, Jiazhao Zhang, Minghan Li, Jiahang Liu, Anqi Li, Kui Wu, F
 affil: 'Peking University, Galbot, Beihang University, <br>Beijing Normal University, BAAI'
 pdf: 00.pdf
 paper_url: https://openreview.net/pdf?id=0OFw7YLECz
+supp_url: https://openreview.net/attachment?id=0OFw7YLECz&name=supplementary_material
 # img: 00.png
 ---

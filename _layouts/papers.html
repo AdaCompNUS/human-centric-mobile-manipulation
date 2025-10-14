@@ -10,6 +10,32 @@ layout: default
 
   <div class = "post-content">
 	  <table>
+		<tr>
+			<td>
+				<div class="people-name text-center">
+					<p align="center">
+						<b>Paper</b>
+					</p>
+				</div>
+			</td>
+			<td>
+				<div class="people-name text-center">
+					<p align="center">
+						<b>Supp</b>
+					</p>
+				</div>
+			</td>
+			<td align="center">
+				<div class="people-name text-center">
+					<b>Title</b>
+				</div>
+			</td>
+			<td>
+				<div class="people-name text-center">
+					<b>Authors</b>
+				</div>
+			</td>
+		</tr>
 	  	{% for paper in site.papers %}
 		    <tr>
 		        <td>
@@ -27,6 +53,17 @@ layout: default
 		                </p>
 		            </div>
 		        </td>
+				<td>
+					<div class="people-name text-center">
+						<p align="center">
+		                	{% if paper.supp_url %}
+								<a href="{{ paper.supp_url }}">
+		                    	<img class="paper-pic" src="{{ 'supp.png' | prepend: '/assets/img/papers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank" style="width:36px;height:36px;">
+								</a>
+		                    {% endif %}
+						</p>
+					</div>
+				</td>
 		        <td align="center">
 		        	<div class="people-name text-center">
 			        	<b>{{ paper.title }}</b>
