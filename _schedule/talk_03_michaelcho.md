@@ -6,5 +6,5 @@ affil: FrodoBots
 affil_link: https://frodobots.ai/
 img: michael.png
 title: 'Industry Talk - Real World Learnings from the Earth Rovers Challenge'
-time: 1410 - 1425
+time: 1410 - 1430
 ---

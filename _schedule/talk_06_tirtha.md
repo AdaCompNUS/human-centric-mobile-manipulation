@@ -6,5 +6,5 @@ affil: CSIRO
 affil_link: https://www.csiro.au/en/
 img: tirtha.jpeg
 title: 'Keynote 2 - Failure Handling for Navigation in Unstructured Environments'
-time: 1455 - 1515
+time: 1500 - 1520
 ---
