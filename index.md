@@ -36,7 +36,9 @@ In particular, this workshop aims to answer the questions:
 <br>
 
 ### <center>OWN is Happening Online!</center>
-##### [<center>Join us on Zoom</center>](https://nus-sg.zoom.us/j/86303710165?pwd=e0vagJkdMd1OmDSZRFL58Kbu5fbIdx.1)
+<center>
+<iframe width="784" height="441" src="https://www.youtube.com/embed/pmXba6nAypg?si=HNTRC9IfTeguKeJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 <br>
 
 ### <center>Speakers and Panelists</center>
