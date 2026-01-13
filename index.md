@@ -44,7 +44,7 @@ The workshop will cover, but is not limited to, the following topics:
 
 <br> -->
 
-### <center> Call for Demos </center>
+<!-- ### <center> Call for Demos </center>
 
 We invite short videos and live demos showcasing **human-centric mobile manipulation systems**, including human–robot interaction, human-aware motion and manipulation planning, shared autonomy, and failure recovery in real-world settings. Demos can be either in **simulation** or **real-world**. All demos will be set up and shown on **[RoboMesh](https://tom-bridge.nusssi.com/robomesh)** interactively.
 
@@ -60,7 +60,7 @@ We invite paper submissions related to **human-centric mobile manipulation**, in
 
 Please refer to the [Call for Papers]({{ '/callforpapers/' | relative_url }}) for submission guidelines.
 
-🏆 **Best Paper Award**: *TBD*
+🏆 **Best Paper Award**: *TBD* -->
 
 <!-- <p style="text-align: center;">
 <em>Time to paper submission deadline</em> (TBD):
@@ -74,18 +74,18 @@ TBD
 
 <!-- <br> -->
 
-### <center>Tentative Schedule</center>
+<!-- ### <center>Tentative Schedule</center>
 
-The workshop is planned as a **half-day event** (morning or afternoon), including invited talks, panel discussions, live demos, and contributed papers/posters.
+The workshop is planned as a **half-day event** (morning or afternoon), including invited talks, panel discussions, live demos, and contributed papers/posters. -->
 
 <!-- * **Part I**: Invited Talks and Demos (TBD)
 * **Part II**: Contributed Talks, Posters, and Demos (TBD) -->
 
-<br>
+<!-- <br> -->
 
-### <center>Organizers</center>
+<!-- ### <center>Organizers</center>
 
-{% include people_grid.html people=site.organizers image_subdir="organizers" %}
+{% include people_grid.html people=site.organizers image_subdir="organizers" %} -->
 
 <!-- <br> -->
 
