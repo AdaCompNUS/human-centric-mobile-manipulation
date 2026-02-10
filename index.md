@@ -37,6 +37,40 @@ The workshop will cover, but is not limited to, the following topics:
 
 <br>
 
+### <center>Call for Papers</center>
+
+<p style="text-align: left;">
+We invite paper submissions on <strong>human-centric mobile manipulation</strong>. The submission deadline is TBD. Please see the
+<a href="{{ '/callforpapers/' | relative_url }}">Call for Papers</a> for topics and submission guidelines. 
+</p>
+
+<br>
+
+### <center>Call for Demos</center>
+
+<p style="text-align: left;">
+We invite <strong>live, interactive demos</strong> (and also <strong>video demos</strong>) on human-centric mobile manipulation.
+All live demos will be deployed and demonstrated via <a href="https://tom-bridge.nusssi.com/robomesh/">RoboMesh</a>.
+<strong>Deadlines:</strong> TBD (AoE). See the <a href="{{ '/callforvideos/' | relative_url }}">Call for Demos</a> page for submission instructions.
+</p>
+
+<br>
+
+### <center>Speakers</center>
+
+{% include people_grid.html people=site.speakers image_subdir="speakers" %}
+
+See the full [Speakers]({{ '/speakers/' | relative_url }}) page for details.
+
+
+### <center>Organizers</center>
+
+{% include people_grid.html people=site.organizers image_subdir="organizers" %}
+
+See the full [Organizers]({{ '/organizers/' | relative_url }}) page for details.
+
+<br>
+
 <!-- ### <center>Invited Speakers and Panelists (Tentative)</center>
 
 {% assign speakers_and_panelists = site.speakers | concat: site.panelists %}
