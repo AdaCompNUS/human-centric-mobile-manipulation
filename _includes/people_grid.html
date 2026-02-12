@@ -3,32 +3,38 @@
 <div class="people-grid">
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;">
     {% for person in people %}
-      <div style="flex: 0 1 200px; text-align: center;">
-        {% assign image_path = '/assets/img/' | append: image_subdir | append: '/' %}
-        {% if person.img %}
-          <img class="people-pic" src="{{ person.img | prepend: image_path | prepend: site.baseurl | prepend: site.url }}" alt="{{ person.name }}" style="width: 150px; height: 150px; object-fit: cover; border-radius: 10px;">
+    <div style="flex: 0 1 200px; text-align: center;">
+      {% assign image_path = '/assets/img/' | append: image_subdir | append: '/' %}
+      {% if person.img %}
+      <img class="people-pic" src="{{ person.img | prepend: image_path | prepend: site.baseurl | prepend: site.url }}"
+        alt="{{ person.name }}" style="width: 150px; height: 150px; object-fit: cover; border-radius: 10px;">
+      {% else %}
+      <img class="people-pic" src="{{ 'avatar.jpg' | prepend: image_path | prepend: site.baseurl | prepend: site.url }}"
+        alt="{{ person.name }}" style="width: 150px; height: 150px; object-fit: cover; border-radius: 10px;">
+      {% endif %}
+      <div style="margin-top: 0.5rem;">
+        {% if person.webpage %}
+        <b><a href="{{ person.webpage }}" target="_blank">{{ person.name }}</a></b>
         {% else %}
-          <img class="people-pic" src="{{ 'avatar.jpg' | prepend: image_path | prepend: site.baseurl | prepend: site.url }}" alt="{{ person.name }}" style="width: 150px; height: 150px; object-fit: cover; border-radius: 10px;">
+        <b>{{ person.name }}</b>
         {% endif %}
-        <div style="margin-top: 0.5rem;">
-          {% if person.webpage %}
-            <b><a href="{{ person.webpage }}" target="_blank">{{ person.name }}</a></b>
-          {% else %}
-            <b>{{ person.name }}</b>
-          {% endif %}
-          <br>
-          {% if person.affil_link %}
-            <a href="{{ person.affil_link }}" target="_blank">{{ person.affil_short }}</a>
-          {% else %}
-            {{ person.affil }}
-          {% endif %}
-          {% if person.affil2_link %}
-            <br><a href="{{ person.affil2_link }}" target="_blank">{{ person.affil2 }}</a>
-          {% elsif person.affil2 %}
-            <br>{{ person.affil2 }}
-          {% endif %}
-        </div>
+        <br>
+        {% if person.demo_name %}
+        <i style="font-size: 0.85rem;">{{ person.demo_name }}</i>
+        <br>
+        {% endif %}
+        {% if person.affil_link %}
+        <a href="{{ person.affil_link }}" target="_blank">{{ person.affil_short }}</a>
+        {% else %}
+        {{ person.affil }}
+        {% endif %}
+        {% if person.affil2_link %}
+        <br><a href="{{ person.affil2_link }}" target="_blank">{{ person.affil2 }}</a>
+        {% elsif person.affil2 %}
+        <br>{{ person.affil2 }}
+        {% endif %}
       </div>
+    </div>
     {% endfor %}
   </div>
 </div>

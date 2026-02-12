@@ -82,48 +82,8 @@ All live demos will be deployed and demonstrated via <a href="https://tom-bridge
 
 ### <center>Live Demo Talks</center>
 
-{% assign demos = site.speakers | where: "type", "demo" | sort: "sequence_id" %}
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-top: 1rem;">
-{% for demo in demos %}
-  <div style="flex: 0 1 220px; text-align: center; border: 1px solid #ddd; border-radius: 12px; padding: 1rem;">
-    <div style="font-weight: bold; font-size: 0.9rem; margin-bottom: 0.6rem; min-height: 2.5em; display: flex; align-items: center; justify-content: center;">
-      {{ demo.demo_name }}
-    </div>
-    <hr style="margin: 0.4rem 0;">
-    <div style="margin-top: 0.5rem;">
-      <img src="{{ demo.img | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}" alt="{{ demo.name }}" style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px;">
-      <div style="font-size: 0.85rem; margin-top: 0.3rem;">
-        {% if demo.webpage %}
-          <b><a href="{{ demo.webpage }}" target="_blank">{{ demo.name }}</a></b>
-        {% else %}
-          <b>{{ demo.name }}</b>
-        {% endif %}
-        <br><i>Presenter</i>
-      </div>
-    </div>
-    <div style="margin-top: 0.6rem;">
-      {% if demo.pi_img %}
-        <img src="{{ demo.pi_img | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}" alt="{{ demo.pi_name }}" style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px;">
-      {% else %}
-        <img src="{{ 'avatar.jpg' | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}" alt="{{ demo.pi_name }}" style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px;">
-      {% endif %}
-      <div style="font-size: 0.85rem; margin-top: 0.3rem;">
-        {% if demo.pi_webpage %}
-          <b><a href="{{ demo.pi_webpage }}" target="_blank">{{ demo.pi_name }}</a></b>
-        {% else %}
-          <b>{{ demo.pi_name }}</b>
-        {% endif %}
-        <br><i>PI</i>
-        {% if demo.affil_link %}
-          <br><a href="{{ demo.affil_link }}" target="_blank" style="font-size: 0.8rem;">{{ demo.affil }}</a>
-        {% else %}
-          <br><span style="font-size: 0.8rem;">{{ demo.affil }}</span>
-        {% endif %}
-      </div>
-    </div>
-  </div>
-{% endfor %}
-</div>
+{% assign demos = site.speakers | where: "type", "demo" %}
+{% include people_grid.html people=demos image_subdir="speakers" %}
 
 See the full [Speakers]({{ '/speakers/' | relative_url }}) page for details.
 

@@ -8,59 +8,73 @@ layout: default
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
-  <div class = "post-content">
-	  <table style="border-collapse: collapse; border: none;">
-	  	{% for speaker in site.speakers %}
-		    <tr style="border: none;">
-		        <td style="border: none;">
-		            <div class="col-xs-6">
-		                <p align="center">
-		                	{% if speaker.img %}
-		                    	<img class="people-pic" src="{{ speaker.img | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">
-		                    {% else %}
-		                    	<img class="people-pic" src="{{ 'avatar.jpg' | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">
-		                    {% endif %}
-		                </p>
-		            </div>
-		        </td>
-		        <td style="border: none;">
-		            <div class="people-name text-center">
-		            	<!-- Speaker name (link to webpage if provided) -->
-		            	{% if speaker.webpage %}
-		            		<b><a href="{{ speaker.webpage }}" target="_blank">{{ speaker.name }}</a></b>
-		            	{% else %}
-		            		<b>{{ speaker.name }}</b>
-		            	{% endif %}
-		                <br>
-						<!-- Speaker's appointment -->
-						{% if speaker.appointment %}
-							<i>{{ speaker.appointment }}</i>
-						{% endif %}
-						<br>
-		                <!-- Speaker affiliation (if provided) -->
-		                {% if speaker.affil_link %}
-		                	<a href="{{ speaker.affil_link }}" target="_blank">{{ speaker.affil }}</a>
-		                {% else %}
-		                	{{ speaker.affil }}
-		                {% endif %}
-		                <!-- Additional speaker affiliation (if provided) -->
-		                {% if speaker.affil2_link %}
-		                	<br>
-		                	<a href="{{ speaker.affil2_link }}" target="_blank">{{ speaker.affil2 }}</a>
-		                {% elsif speaker.affil2 %}
-		                	<br>
-		                	{{ speaker.affil2 }}
-		                {% endif %}
-		            </div>
-		        </td>
-		        <td style="border: none;">
-		        	<div class="people-name text-center">
-		        		{{ speaker.content }}
-		        	</div>
-		        </td>
-		    </tr>
-	    {% endfor %}
-	  </table>
+  <div class="post-content">
+    {% assign sorted_speakers = site.speakers | sort: "sequence_id" %}
+    <table style="border-collapse: collapse; border: none; width: 100%;">
+      {% for speaker in sorted_speakers %}
+      <tr style="border: none;">
+        <td style="border: none; width: 140px; vertical-align: top; padding: 12px;">
+          <p align="center">
+            {% if speaker.img %}
+            <img class="people-pic"
+              src="{{ speaker.img | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}"
+              alt="{{ speaker.name }}" style="width: 120px; height: 120px; object-fit: cover; border-radius: 10px;">
+            {% else %}
+            <img class="people-pic"
+              src="{{ 'avatar.jpg' | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}"
+              alt="{{ speaker.name }}" style="width: 120px; height: 120px; object-fit: cover; border-radius: 10px;">
+            {% endif %}
+          </p>
+        </td>
+        <td style="border: none; vertical-align: top; padding: 12px; width: 280px;">
+          <div class="people-name text-center">
+            <!-- Speaker name (link to webpage if provided) -->
+            {% if speaker.webpage %}
+            <b><a href="{{ speaker.webpage }}" target="_blank">{{ speaker.name }}</a></b>
+            {% else %}
+            <b>{{ speaker.name }}</b>
+            {% endif %}
+            <br>
+            <!-- Speaker's appointment -->
+            {% if speaker.appointment %}
+            <i>{{ speaker.appointment }}</i>
+            {% endif %}
+            <!-- Demo name (for demo speakers) -->
+            {% if speaker.demo_name %}
+            <br><i>Demo: {{ speaker.demo_name }}</i>
+            {% endif %}
+            <br>
+            <!-- Speaker affiliation (if provided) -->
+            {% if speaker.affil_link %}
+            <a href="{{ speaker.affil_link }}" target="_blank">{{ speaker.affil }}</a>
+            {% else %}
+            {{ speaker.affil }}
+            {% endif %}
+            <!-- PI info (for demo speakers) -->
+            {% if speaker.pi_name %}
+            <br>
+            <span style="font-size: 0.9rem;">PI:
+              {% if speaker.pi_webpage %}
+              <a href="{{ speaker.pi_webpage }}" target="_blank">{{ speaker.pi_name }}</a>
+              {% else %}
+              {{ speaker.pi_name }}
+              {% endif %}
+            </span>
+            {% endif %}
+            <!-- Lab info (for demo speakers) -->
+            {% if speaker.lab %}
+            <br><span style="font-size: 0.85rem;">{{ speaker.lab }}</span>
+            {% endif %}
+          </div>
+        </td>
+        <td style="border: none; vertical-align: top; padding: 12px;">
+          <div class="people-name text-center">
+            {{ speaker.content }}
+          </div>
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
   </div>
 
 </article>
