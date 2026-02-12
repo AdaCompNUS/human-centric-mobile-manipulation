@@ -25,8 +25,10 @@ layout: default
 				</td>
 				<td>
 					<div class="people-name text-center">
-						{% if scheduleitem.webpage %}
-						<a href="{{ scheduleitem.webpage }}" target="_blank">{{ scheduleitem.speaker }}</a>
+						{% assign matching_speaker = site.speakers | where: "name", scheduleitem.speaker | first %}
+						{% assign speaker_url = scheduleitem.webpage | default: matching_speaker.webpage %}
+						{% if speaker_url %}
+						<a href="{{ speaker_url }}" target="_blank">{{ scheduleitem.speaker }}</a>
 						{% else %}
 						{{ scheduleitem.speaker }}
 						{% endif %}

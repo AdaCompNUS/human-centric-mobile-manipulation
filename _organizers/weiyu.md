@@ -1,7 +1,7 @@
 ---
 # Name of the organizer
 sequence_id: 3
-name: Dr. Weiyu Liu
+name: Prof. Weiyu Liu
 
 # Link to the organizer's webpage
 webpage: https://weiyuliu.com/

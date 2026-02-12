@@ -10,5 +10,5 @@ img: rahul.webp
 webpage: https://researchportalplus.anu.edu.au/en/persons/rahul-shome/
 ---
 
-**Keynote Topic:** Task and Motion Planning and Multi-Robot Planning
+**Keynote Topic:** Task and Motion Planning for Execution in the Unknown and Uncertain
 
