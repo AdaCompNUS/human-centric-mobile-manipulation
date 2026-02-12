@@ -1,9 +1,11 @@
 ---
 sequence_id: 2
-name: TBD
-appointment: Keynote 2
-affil: TBD
+name: Prof. Roberto Martín-Martín
+appointment: Keynote Speaker
+affil: University of Texas at Austin
 img: avatar.jpg
 ---
 
-Bio: TBD.
+**Topic:** Human-Robot Collaboration for Mobile Manipulation through Dialogue
+
+Confirmed to speak in person.
