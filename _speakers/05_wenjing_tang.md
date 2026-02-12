@@ -2,7 +2,7 @@
 sequence_id: 5
 type: demo
 name: Wenjing Tang
-appointment: "Live Demo Speaker"
+appointment: "Demo Speaker"
 affil: Shanghai Jiao Tong University
 affil_link: https://www.sjtu.edu.cn/
 img: wenjing.jpg

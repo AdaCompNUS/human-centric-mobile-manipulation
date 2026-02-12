@@ -8,7 +8,6 @@ webpage: https://albilo17.github.io/
 
 # Primary affiliation
 affil: Stanford University
-affil_short: Stanford
 affil_link: https://www.stanford.edu/
 
 # An image of the organizer (square aspect ratio works the best) (place in the `assets/img/organizers` directory)

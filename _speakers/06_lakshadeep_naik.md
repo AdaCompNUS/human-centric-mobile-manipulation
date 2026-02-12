@@ -2,7 +2,7 @@
 sequence_id: 6
 type: demo
 name: Dr. Lakshadeep Naik
-appointment: "Live Demo Speaker"
+appointment: "Demo Speaker"
 affil: KTH Royal Institute of Technology
 affil_link: https://www.kth.se/
 img: Lakshadeep.jpeg

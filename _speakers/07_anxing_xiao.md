@@ -2,7 +2,7 @@
 sequence_id: 7
 type: demo
 name: Anxing Xiao
-appointment: "Live Demo Speaker"
+appointment: "Demo Speaker"
 affil: National University of Singapore
 affil_link: https://www.nus.edu.sg/
 img: anxing.jpg

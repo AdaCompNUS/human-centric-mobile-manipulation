@@ -8,7 +8,6 @@ webpage: https://cunjunyu.github.io/
 
 # Primary affiliation
 affil: National University of Singapore
-affil_short: NUS
 affil_link: https://www.nus.edu.sg/
 
 # An image of the organizer (square aspect ratio works the best) (place in the `assets/img/organizers` directory)

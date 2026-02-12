@@ -8,7 +8,6 @@ webpage: https://www.comp.nus.edu.sg/~dyhsu/
 
 # Primary affiliation of the speaker
 affil: National University of Singapore
-affil_short: NUS
 # Link to the speaker's primary affiliation
 affil_link: https://www.nus.edu.sg/
 

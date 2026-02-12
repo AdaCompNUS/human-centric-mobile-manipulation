@@ -78,7 +78,7 @@ All live demos will be deployed and demonstrated via <a href="https://tom-bridge
 
 <br>
 
-### <center>Live Demo Speakers</center>
+### <center>Demo Speakers</center>
 
 {% assign demos = site.speakers | where: "type", "demo" %}
 {% include people_grid.html people=demos image_subdir="speakers" %}

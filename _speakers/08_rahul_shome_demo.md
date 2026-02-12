@@ -2,7 +2,7 @@
 sequence_id: 8
 type: demo
 name: TBD
-appointment: "Live Demo Speaker"
+appointment: "Demo Speaker"
 affil: Australian National University
 affil_link: https://www.anu.edu.au/
 img: avatar.jpg

@@ -8,7 +8,6 @@ webpage: https://zhanghanbo.github.io/
 
 # Primary affiliation
 affil: National University of Singapore
-affil_short: NUS
 # Link to the primary affiliation
 affil_link: https://ssi.nus.edu.sg/#world
 
