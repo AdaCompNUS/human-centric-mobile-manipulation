@@ -28,9 +28,9 @@ layout: default
 						{% assign matching_speaker = site.speakers | where: "name", scheduleitem.speaker | first %}
 						{% assign speaker_url = scheduleitem.webpage | default: matching_speaker.webpage %}
 						{% if speaker_url %}
-						<a href="{{ speaker_url }}" target="_blank">{{ scheduleitem.speaker }}</a>
+						<b><a href="{{ speaker_url }}" target="_blank">{{ scheduleitem.speaker }}</a></b>
 						{% else %}
-						{{ scheduleitem.speaker }}
+						<b>{{ scheduleitem.speaker }}</b>
 						{% endif %}
 
 						{% if scheduleitem.comment %}
