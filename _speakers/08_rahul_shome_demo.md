@@ -11,7 +11,7 @@ pi_affil: Australian National University
 pi_img: rahul.webp
 pi_webpage: https://researchportalplus.anu.edu.au/en/persons/rahul-shome/
 lab: Robotics Group, School of Computing
-demo_name: "TAMP for Execution in the Unknown and Uncertain - Instances of Sequential Manipulation"
+demo_name: "TAMP for Execution in the Unknown and Uncertain"
 ---
 
 Tentatively confirmed.

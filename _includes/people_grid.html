@@ -19,14 +19,14 @@
         <b>{{ person.name }}</b>
         {% endif %}
         <br>
-        {% if person.demo_name %}
-        <i style="font-size: 0.85rem;">{{ person.demo_name }}</i>
-        <br>
-        {% endif %}
         {% if person.affil_link %}
         <a href="{{ person.affil_link }}" target="_blank">{{ person.affil_short }}</a>
         {% else %}
         {{ person.affil }}
+        {% endif %}
+        {% if person.demo_name %}
+        <br>
+        <i style="font-size: 0.85rem;">{{ person.demo_name }}</i>
         {% endif %}
         {% if person.affil2_link %}
         <br><a href="{{ person.affil2_link }}" target="_blank">{{ person.affil2 }}</a>
