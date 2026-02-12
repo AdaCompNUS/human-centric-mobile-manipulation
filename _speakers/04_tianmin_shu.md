@@ -4,7 +4,7 @@ type: keynote
 name: Prof. Tianmin Shu
 appointment: Keynote Speaker
 affil: Johns Hopkins University
-img: avatar.jpg
+img: tianmin.jpg
 ---
 
 **Topic:** Cognitive AI and Machine Social Intelligence

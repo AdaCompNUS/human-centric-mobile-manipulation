@@ -2,8 +2,7 @@ div.speaker {
   margin: 2em 0;
 }
 
-div.speaker
-div.speaker-pic {
+div.speaker div.speaker-pic {
   text-align: center;
 }
 
@@ -18,9 +17,10 @@ div.speaker p.speaker-bio {
 }
 
 .people-pic {
-  max-width: 100px;
-  max-height: 100px;
-  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
   padding: 0;
 }
 
@@ -33,22 +33,28 @@ div.speaker p.speaker-bio {
   font-weight: 100;
   font-size: 11px;
 }
+
 @media (max-width:1000px) {
-    div.speaker img.people-pic {
-        max-width: 100px;
-        max-height: 100px;
-    }
-    .people-pic {
-        max-width: 65px;
-        max-height: 65px;
-    }
-    .people-name {
-        font-size: 13px;
-        line-height: 18px;
-    }
-    .people-name h6 {
-        font-size: 9px;
-    }
+  div.speaker img.people-pic {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .people-pic {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+  }
+
+  .people-name {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .people-name h6 {
+    font-size: 9px;
+  }
 }
 
 .paper-pic {
@@ -58,36 +64,43 @@ div.speaker p.speaker-bio {
 }
 
 div.award {
-    padding: 15px 0px 15px 25px;
+  padding: 15px 0px 15px 25px;
 }
+
 div.award h3 {
-    font-size: 15px;
+  font-size: 15px;
 }
+
 span.award-sponsor {
-    color: #666;
-    font-size: 13px;
+  color: #666;
+  font-size: 13px;
 }
-span.award-sponsor a ,
+
+span.award-sponsor a,
 span.award-other a {
-    text-decoration: none;
-    border: 0;
+  text-decoration: none;
+  border: 0;
 }
+
 span.award-sponsor img {
-    height: 18px;
-    margin: 0 5px;
+  height: 18px;
+  margin: 0 5px;
 }
+
 div.award:last-child {
-    padding-top: 30px;
+  padding-top: 30px;
 }
+
 span.award-other img {
-    height: 18px;
-    margin-top: 2px;
-    vertical-align: top;
+  height: 18px;
+  margin-top: 2px;
+  vertical-align: top;
 }
 
 .table.schedule tr.noline td {
   border-top: none;
 }
+
 .table.schedule tr td {
   padding-top: 0;
   padding-bottom: 8px;

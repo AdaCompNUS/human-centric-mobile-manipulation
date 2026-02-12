@@ -2,7 +2,7 @@
 sequence_id: 6
 type: demo
 name: Dr. Lakshadeep Naik
-appointment: "Live Demo Presenter"
+appointment: "Live Demo Speaker"
 affil: KTH Royal Institute of Technology
 img: avatar.jpg
 pi_name: Prof. Danica Kragic

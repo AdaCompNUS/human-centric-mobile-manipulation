@@ -4,7 +4,7 @@ type: keynote
 name: Prof. Tamim Asfour
 appointment: Keynote Speaker
 affil: Karlsruhe Institute of Technology
-img: avatar.jpg
+img: tamim.asfour.jpeg
 ---
 
 **Topic:** Learning Manipulation Constraints from Human Demonstration for Humanoid Robots

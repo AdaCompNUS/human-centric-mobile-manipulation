@@ -2,7 +2,7 @@
 sequence_id: 5
 type: demo
 name: Ms. Wenjing Tang
-appointment: "Live Demo Presenter"
+appointment: "Live Demo Speaker"
 affil: Shanghai Jiao Tong University
 img: avatar.jpg
 pi_name: Prof. Panpan Cai

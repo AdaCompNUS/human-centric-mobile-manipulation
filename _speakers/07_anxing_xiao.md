@@ -2,9 +2,9 @@
 sequence_id: 7
 type: demo
 name: Mr. Anxing Xiao
-appointment: "Live Demo Presenter"
+appointment: "Live Demo Speaker"
 affil: National University of Singapore
-img: avatar.jpg
+img: anxing.jpg
 pi_name: Prof. David Hsu
 pi_affil: National University of Singapore
 lab: Adaptive Computing Laboratory

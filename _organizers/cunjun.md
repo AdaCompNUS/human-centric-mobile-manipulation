@@ -11,6 +11,6 @@ affil: National University of Singapore
 affil_short: NUS
 
 # An image of the organizer (square aspect ratio works the best) (place in the `assets/img/organizers` directory)
-img: avatar.jpg
+img: cunjun.jpeg
 
 ---

@@ -8,7 +8,7 @@ We invite workshop paper submissions presenting **ideas, systems, and experiment
 Accepted papers will be released on the workshop website as **non-archival publications** after the conclusion of the workshop. Submissions may describe:
 
 - New and unpublished work.
-- Published work.
+- Extended abstracts.
 - Late-breaking ideas.
 
 ## Topics of Interest
@@ -16,36 +16,12 @@ Accepted papers will be released on the workshop website as **non-archival publi
 We welcome contributions in areas including, but not limited to, the following topics:
 
 * **Human-Robot Interaction Interface Design**
-  * Task specification for mobile manipulation in human-centered environments  
-  * Representations of goals, constraints, and human preferences  
-  * Interaction modalities (language, demonstrations, teleoperation, etc.)
-
 * **Human-Aware Whole Body Motion Planning & Control**
-  * Human-aware motion planning and manipulation
-  * Safety-aware planning and execution
-  * Passive and active effects of robot behavior on humans
-  * Social navigation and manipulation
-
 * **Foundation Models for Mobile Manipulation**
-  * Large language and vision-language models for task understanding
-  * Foundation model-based planning and control
-
 * **Uncertainty and Risk-Aware Decision Making**
-  * Uncertainty-aware planning under partial observability
-  * Risk-sensitive decision making for human-centered scenarios
-
 * **Shared Autonomy & Responsibility Allocation**
-  * Shared autonomy between humans and robots
-  * Online human intervention, feedback, and correction
-
 * **Failure Prediction & Recovery**
-  * Failure prediction, detection, and recovery
-  * Robustness and adaptability in real-world deployment
-
 * **Benchmarks & Evaluation for Human-Centered Manipulation**
-  * Large-scale datasets and simulation environments
-  * Human modeling and evaluation metrics
-  * Benchmarks for human-centered mobile manipulation
 
 ## Submission Instructions
 
