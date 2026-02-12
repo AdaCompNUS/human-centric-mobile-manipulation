@@ -12,4 +12,3 @@ webpage: https://www.tshu.io/
 
 **Keynote Topic:** Cognitive AI and Machine Social Intelligence
 
-Confirmed to speak in person.

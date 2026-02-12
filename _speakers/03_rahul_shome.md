@@ -12,4 +12,3 @@ webpage: https://researchportalplus.anu.edu.au/en/persons/rahul-shome/
 
 **Keynote Topic:** Task and Motion Planning and Multi-Robot Planning
 
-Confirmed to speak in person.

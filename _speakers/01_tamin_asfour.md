@@ -12,4 +12,3 @@ webpage: https://h2t.iar.kit.edu/tamim-asfour.php
 
 **Keynote Topic:** Learning Manipulation Constraints from Human Demonstration for Humanoid Robots
 
-Confirmed to speak in person.

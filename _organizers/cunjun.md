@@ -1,7 +1,7 @@
 ---
 # Name of the organizer
 sequence_id: 5
-name: Mr. Cunjun Yu
+name: Cunjun Yu
 
 # Link to the organizer's webpage
 webpage: https://cunjunyu.github.io/

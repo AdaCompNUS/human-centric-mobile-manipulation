@@ -1,7 +1,7 @@
 ---
 # Name of the organizer
 sequence_id: 4
-name: Mr. Anxing Xiao
+name: Anxing Xiao
 
 # Link to the organizer's webpage
 webpage: https://anxingxiao.com/

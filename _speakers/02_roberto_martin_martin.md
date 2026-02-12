@@ -12,4 +12,3 @@ webpage: https://robertomartinmartin.com/
 
 **Keynote Topic:** Human-Robot Collaboration for Mobile Manipulation through Dialogue
 
-Confirmed to speak in person.

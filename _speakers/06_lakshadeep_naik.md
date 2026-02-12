@@ -14,7 +14,3 @@ pi_webpage: https://www.kth.se/profile/dani
 lab: Division of Robotics, Perception and Learning
 demo_name: "TBD"
 ---
-
-Postdoc Researcher, Division of Robotics, Perception and Learning
-
-Confirmed to attend remotely.

@@ -1,7 +1,7 @@
 ---
 sequence_id: 5
 type: demo
-name: Ms. Wenjing Tang
+name: Wenjing Tang
 appointment: "Live Demo Speaker"
 affil: Shanghai Jiao Tong University
 affil_link: https://www.sjtu.edu.cn/
@@ -13,7 +13,3 @@ pi_webpage: https://cindycia.github.io/
 lab: Robot Planning and Learning group
 demo_name: "UniDomain: Milk Tea Barista"
 ---
-
-Ph.D. Student, Robot Planning and Learning group
-
-Confirmed to attend in person.

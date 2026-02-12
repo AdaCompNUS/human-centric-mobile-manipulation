@@ -7,9 +7,9 @@ permalink: /callforpapers/
 We invite workshop paper submissions presenting **ideas, systems, and experimental studies** related to **human-centric mobile manipulation**.  
 Accepted papers will be released on the workshop website as **non-archival publications** after the conclusion of the workshop. Submissions may describe:
 
-- New and unpublished work.
-- Extended abstracts.
-- Late-breaking ideas.
+* New and unpublished work.
+* Extended abstracts.
+* Late-breaking ideas.
 
 ## Topics of Interest
 
