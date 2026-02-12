@@ -1,7 +1,7 @@
 ---
 sequence_id: 1
 speaker: Organizers
-affil: —
+affil: ""
 title: Opening Remarks
-time: 1400 - 1405
+time: "1400 - 1405"
 ---

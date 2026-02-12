@@ -60,6 +60,7 @@ last_updated: true
 # To turn off any of these collections, just set "output" to "false"
 collections:
   speakers:
+    sort_by: sequence_id
     output: true
   panelists:
     output: true

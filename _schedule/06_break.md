@@ -1,7 +1,7 @@
 ---
 sequence_id: 6
-speaker: —
-affil: —
+speaker: ""
+affil: ""
 title: Coffee Break + Poster Session
-time: 1525 - 1600
+time: "1525 - 1600"
 ---
