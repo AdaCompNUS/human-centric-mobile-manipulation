@@ -1,7 +1,7 @@
 ---
 sequence_id: 9
-speaker: Prof. Danica Kragic
+speaker: Dr. Lakshadeep Naik (PI: Prof. Danica Kragic)
 affil: KTH Royal Institute of Technology
-title: "Live Demo Talk 3"
+title: "Live Demo Talk 3: TBD"
 time: 1630 - 1645
 ---

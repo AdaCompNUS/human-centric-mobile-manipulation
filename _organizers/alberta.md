@@ -4,11 +4,12 @@ sequence_id: 4
 name: Dr. Alberta Longhini
 
 # Link to the organizer's webpage
-webpage: 
+webpage: https://albilo17.github.io/
 
 # Primary affiliation
 affil: Stanford University
 affil_short: Stanford
+affil_link: https://www.stanford.edu/
 
 # An image of the organizer (square aspect ratio works the best) (place in the `assets/img/organizers` directory)
 img: alberta.jpg

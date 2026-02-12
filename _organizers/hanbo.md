@@ -4,7 +4,7 @@ sequence_id: 2
 name: Dr. Hanbo Zhang
 
 # Link to the organizer's webpage
-webpage: https://scholar.google.com/citations?user=1qfEEwsAAAAJ
+webpage: https://zhanghanbo.github.io/
 
 # Primary affiliation
 affil: National University of Singapore

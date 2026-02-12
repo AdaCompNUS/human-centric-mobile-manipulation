@@ -10,7 +10,7 @@ webpage: https://www.comp.nus.edu.sg/~dyhsu/
 affil: National University of Singapore
 affil_short: NUS
 # Link to the speaker's primary affiliation
-affil_link: https://www.comp.nus.edu.sg/~dyhsu/
+affil_link: https://www.nus.edu.sg/
 
 # An image of the speaker (square aspect ratio works the best) (place in the `assets/img/organizers` directory)
 img: david.png
