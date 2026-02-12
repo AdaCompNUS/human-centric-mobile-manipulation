@@ -9,17 +9,18 @@ layout: home
 ##### <center>Date & Time: TBD</center>
 ##### <center>Location: TBD</center>
 
-Can a robot effectively collaborate with humans to perform mobile manipulation tasks in real-world environments? As mobile manipulators move from lab settings into human-centered environments such as homes, hospitals, and workplaces, ranging from robotic guide dogs to generalized household robots, they must not only navigate and manipulate objects, but also communicate and collaborate with humans in a safe, efficient, and seamless manner. Despite recent progress in autonomous mobile manipulation, robots still struggle to (1) establish **intuitive and reliable human–robot interaction** that allows humans to efficiently convey intent, provide feedback, and intervene when necessary, and (2) plan and execute **motions and manipulation behaviors** that are explicitly aware of human presence, safety, comfort, and collaborative dynamics. Addressing these challenges is essential for enabling robots to operate as effective partners rather than isolated autonomous agents in real-world, human-centered environments.
+Can a robot effectively perform mobile manipulation tasks in real-world environments with humans? As mobile manipulators transition from controlled lab settings into human-centered environments such as homes, hospitals, and workplaces, they must not only navigate and manipulate objects, but also communicate and collaborate with humans in a safe, intuitive, and efficient manner. Despite recent advances in autonomous mobile manipulation, robots continue to struggle with two fundamental challenges. First, establishing intuitive and reliable human–robot interaction that allows humans to convey intent, provide feedback, and intervene when necessary. Second, planning and executing human-aware motion and manipulation behaviors that explicitly account for human presence, safety, comfort, and collaborative dynamics. Addressing these challenges is essential for enabling robots to operate as effective partners rather than isolated autonomous agents in real-world, human-centric environments. This workshop aims to bring together researchers and practitioners to develop a shared understanding of these challenges, explore emerging solutions, and identify promising research directions in human-centric mobile manipulation.
 
-This workshop aims to build a shared understanding of the core challenges in human-centric mobile manipulation, facilitate progress on these challenges, and strengthen a cohesive research community around interactive, safe, and reliable mobile manipulation in real-world human environments.
+In particular, this workshop aims to address the following questions:
 
-This workshop is intended for researchers, students, and practitioners who are interested in exploring the long-term deployment of mobile manipulation systems in real human-centric environments. Presenters and panelists will be drawn from sub-communities including mobile manipulation, human–robot interaction (HRI), task and motion planning, robot learning, robot perception, and assistive and service robotics, bringing together user-oriented, algorithmic, and systems-level perspectives.
+* How should tasks, goals, constraints, and preferences be specified for mobile manipulation in human environments?
+* How can robots plan and act in ways that are explicitly aware of human presence, safety, and comfort?
 
 <br>
 
 ### <center>Discussion Topics</center>
 
-We invite speakers and submissions, including, but not limited to, the following related topics:
+We invite submissions of papers and live demos, including, but not limited to, the following related topics:
 
 * Human-Robot Interaction Interface Design
 * Human-Aware Whole Body Motion Planning & Control
@@ -28,18 +29,6 @@ We invite speakers and submissions, including, but not limited to, the following
 * Shared Autonomy & Responsibility Allocation
 * Failure Prediction & Recovery
 * Benchmarks & Evaluation for Human-Centered Manipulation
-
-<br>
-
-### <center>Plans to Encourage Participation</center>
-
-Unlike traditional robotics workshops, this workshop is designed to promote interactive and interdisciplinary communication, with a focus on participation formats and perspectives that are rarely emphasized at robotics conferences.
-
-**New introduction of online interactive demo submissions.**
-We will introduce [RoboMesh](https://tom-bridge.nusssi.com/robomesh/), a web-based platform for hosting and broadcasting live interactive robotics demonstrations worldwide. In addition to traditional paper submissions, the workshop will include a call for online interactive demo submissions, enabling researchers to showcase their robot systems remotely without transporting hardware to the conference venue. This platform and demo format lower barriers to participation, support researchers with limited resources, and provide visibility to work not originating from large, well-funded labs or companies.
-
-**Bringing together multidisciplinary perspectives.**
-The workshop will actively bring together researchers from diverse research areas and cultural backgrounds, including cognitive science, human–robot interaction, planning, learning, and robot design. Organizers, presenters, and panelists will represent institutions across the US, Europe, Australia, and Asia. This diversity reflects not only how different subfields contribute complementary perspectives, but also how cultural and regulatory contexts influence the long-term deployment of mobile manipulators in human-centric environments.
 
 <br>
 
@@ -62,9 +51,37 @@ All live demos will be deployed and demonstrated via <a href="https://tom-bridge
 
 <br>
 
-### <center>Speakers</center>
+### <center>Keynote Speakers</center>
 
-{% include people_grid.html people=site.speakers image_subdir="speakers" %}
+{% assign keynotes = site.speakers | where: "type", "keynote" %}
+{% include people_grid.html people=keynotes image_subdir="speakers" %}
+
+<br>
+
+### <center>Live Demo Talks</center>
+
+{% assign demos = site.speakers | where: "type", "demo" | sort: "sequence_id" %}
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;">
+{% for presenter in demos %}
+  <div style="flex: 0 1 280px; text-align: center; border: 1px solid #ddd; border-radius: 12px; padding: 1.2rem;">
+    <div style="margin-bottom: 0.5rem;">
+      <b>{{ presenter.lab }}</b><br>
+      <i>{{ presenter.pi_affil }}</i>
+    </div>
+    <hr style="margin: 0.5rem 0;">
+    <div style="display: flex; align-items: center; gap: 0.8rem; justify-content: center; margin-top: 0.5rem;">
+      <div>
+        <img src="{{ presenter.img | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}" alt="{{ presenter.pi_name }}" style="width: 60px; height: 60px; object-fit: cover; border-radius: 8px;">
+        <div style="font-size: 0.85rem;"><b>{{ presenter.pi_name }}</b><br><i>PI</i></div>
+      </div>
+      <div>
+        <img src="{{ presenter.img | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}" alt="{{ presenter.name }}" style="width: 60px; height: 60px; object-fit: cover; border-radius: 8px;">
+        <div style="font-size: 0.85rem;"><b>{{ presenter.name }}</b><br><i>Presenter</i></div>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
 
 See the full [Speakers]({{ '/speakers/' | relative_url }}) page for details.
 

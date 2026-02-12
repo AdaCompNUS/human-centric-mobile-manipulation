@@ -1,5 +1,6 @@
 ---
 sequence_id: 3
+type: keynote
 name: Prof. Rahul Shome
 appointment: Keynote Speaker; Live Demo Talk
 affil: Australian National University

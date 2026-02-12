@@ -1,5 +1,6 @@
 ---
 sequence_id: 4
+type: keynote
 name: Prof. Tianmin Shu
 appointment: Keynote Speaker
 affil: Johns Hopkins University

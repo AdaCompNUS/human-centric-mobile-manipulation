@@ -1,5 +1,6 @@
 ---
 sequence_id: 1
+type: keynote
 name: Prof. Tamim Asfour
 appointment: Keynote Speaker
 affil: Karlsruhe Institute of Technology

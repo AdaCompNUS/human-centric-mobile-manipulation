@@ -1,5 +1,6 @@
 ---
 sequence_id: 2
+type: keynote
 name: Prof. Roberto Martín-Martín
 appointment: Keynote Speaker
 affil: University of Texas at Austin
