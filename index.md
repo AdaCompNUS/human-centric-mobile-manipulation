@@ -60,28 +60,8 @@ All live demos will be deployed and demonstrated via <a href="https://tom-bridge
 
 ### <center>Live Demo Talks</center>
 
-{% assign demos = site.speakers | where: "type", "demo" | sort: "sequence_id" %}
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;">
-{% for presenter in demos %}
-  <div style="flex: 0 1 280px; text-align: center; border: 1px solid #ddd; border-radius: 12px; padding: 1.2rem;">
-    <div style="margin-bottom: 0.5rem;">
-      <b>{{ presenter.lab }}</b><br>
-      <i>{{ presenter.pi_affil }}</i>
-    </div>
-    <hr style="margin: 0.5rem 0;">
-    <div style="display: flex; align-items: center; gap: 0.8rem; justify-content: center; margin-top: 0.5rem;">
-      <div>
-        <img src="{{ presenter.img | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}" alt="{{ presenter.pi_name }}" style="width: 60px; height: 60px; object-fit: cover; border-radius: 8px;">
-        <div style="font-size: 0.85rem;"><b>{{ presenter.pi_name }}</b><br><i>PI</i></div>
-      </div>
-      <div>
-        <img src="{{ presenter.img | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}" alt="{{ presenter.name }}" style="width: 60px; height: 60px; object-fit: cover; border-radius: 8px;">
-        <div style="font-size: 0.85rem;"><b>{{ presenter.name }}</b><br><i>Presenter</i></div>
-      </div>
-    </div>
-  </div>
-{% endfor %}
-</div>
+{% assign demos = site.speakers | where: "type", "demo" %}
+{% include people_grid.html people=demos image_subdir="speakers" %}
 
 See the full [Speakers]({{ '/speakers/' | relative_url }}) page for details.
 
