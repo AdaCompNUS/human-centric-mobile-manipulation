@@ -48,17 +48,7 @@ layout: default
             {% else %}
             {{ speaker.affil }}
             {% endif %}
-            <!-- PI info (for demo speakers) -->
-            {% if speaker.pi_name %}
-            <br>
-            <span style="font-size: 0.9rem;">PI:
-              {% if speaker.pi_webpage %}
-              <a href="{{ speaker.pi_webpage }}" target="_blank">{{ speaker.pi_name }}</a>
-              {% else %}
-              {{ speaker.pi_name }}
-              {% endif %}
-            </span>
-            {% endif %}
+
             <!-- Lab info (for demo speakers) -->
             {% if speaker.lab %}
             <br><span style="font-size: 0.85rem;">{{ speaker.lab }}</span>
@@ -69,6 +59,16 @@ layout: default
           <div class="people-name text-center">
             {% if speaker.demo_name %}
             <b>Demo Topic:</b> {{ speaker.demo_name }}
+            <br>
+            {% if speaker.pi_name %}
+            <span style="font-size: 0.9rem;">PI:
+              {% if speaker.pi_webpage %}
+              <a href="{{ speaker.pi_webpage }}" target="_blank">{{ speaker.pi_name }}</a>
+              {% else %}
+              {{ speaker.pi_name }}
+              {% endif %}
+            </span>
+            {% endif %}
             <br><br>
             {% endif %}
             {{ speaker.content }}
