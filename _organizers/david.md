@@ -1,6 +1,6 @@
 ---
 # Name of the organizer
-sequence_id: 0
+sequence_id: 7
 name: Prof. David Hsu
 
 # Link to the speaker's webpage

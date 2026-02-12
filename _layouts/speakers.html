@@ -40,9 +40,7 @@ layout: default
             <i>{{ speaker.appointment }}</i>
             {% endif %}
             <!-- Demo name (for demo speakers) -->
-            {% if speaker.demo_name %}
-            <br><i>Demo: {{ speaker.demo_name }}</i>
-            {% endif %}
+
             <br>
             <!-- Speaker affiliation (if provided) -->
             {% if speaker.affil_link %}
@@ -69,6 +67,10 @@ layout: default
         </td>
         <td style="border: none; vertical-align: top; padding: 12px;">
           <div class="people-name text-center">
+            {% if speaker.demo_name %}
+            <b>Demo Topic:</b> {{ speaker.demo_name }}
+            <br><br>
+            {% endif %}
             {{ speaker.content }}
           </div>
         </td>

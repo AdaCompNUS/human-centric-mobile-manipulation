@@ -10,6 +10,6 @@ img: tianmin.jpg
 webpage: https://www.tshu.io/
 ---
 
-**Topic:** Cognitive AI and Machine Social Intelligence
+**Keynote Topic:** Cognitive AI and Machine Social Intelligence
 
 Confirmed to speak in person.

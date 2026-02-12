@@ -25,31 +25,22 @@ layout: default
 				</td>
 				<td>
 					<div class="people-name text-center">
-						<!-- scheduleitem name (link to webpage if provided) -->
 						{% if scheduleitem.webpage %}
 						<a href="{{ scheduleitem.webpage }}" target="_blank">{{ scheduleitem.speaker }}</a>
 						{% else %}
 						{{ scheduleitem.speaker }}
 						{% endif %}
+						{% if scheduleitem.pi %}
+						<br>PI: {{ scheduleitem.pi }}
+						{% endif %}
 						{% if scheduleitem.comment %}
 						<br><i>{{ scheduleitem.comment }}</i>
 						{% endif %}
 						<br>
-						<!-- scheduleitem affiliation (if provided) -->
-						{% if scheduleitem.affil == "—" %}
-						{{ scheduleitem.affil }}
-						{% elsif scheduleitem.affil_link %}
+						{% if scheduleitem.affil_link %}
 						<a href="{{ scheduleitem.affil_link }}" target="_blank">{{ scheduleitem.affil }}</a>
-						{% else %}
+						{% elsif scheduleitem.affil != "" %}
 						{{ scheduleitem.affil }}
-						{% endif %}
-						<!-- Additional scheduleitem affiliation (if provided) -->
-						{% if scheduleitem.affil2_link %}
-						<br>
-						<a href="{{ scheduleitem.affil2_link }}" target="_blank">{{ scheduleitem.affil2 }}</a>
-						{% elsif scheduleitem.affil2 %}
-						<br>
-						{{ scheduleitem.affil2 }}
 						{% endif %}
 					</div>
 				</td>

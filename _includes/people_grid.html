@@ -20,7 +20,7 @@
         {% endif %}
         <br>
         {% if person.affil_link %}
-        <a href="{{ person.affil_link }}" target="_blank">{{ person.affil_short }}</a>
+        <a href="{{ person.affil_link }}" target="_blank">{{ person.affil_short | default: person.affil }}</a>
         {% else %}
         {{ person.affil }}
         {% endif %}

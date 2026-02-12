@@ -1,6 +1,6 @@
 ---
 # Name of the organizer
-sequence_id: 1
+sequence_id: 6
 name: Prof. Danica Kragic
 
 # Link to the organizer's webpage

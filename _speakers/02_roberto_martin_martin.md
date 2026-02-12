@@ -10,6 +10,6 @@ img: roberto.jpg
 webpage: https://robertomartinmartin.com/
 ---
 
-**Topic:** Human-Robot Collaboration for Mobile Manipulation through Dialogue
+**Keynote Topic:** Human-Robot Collaboration for Mobile Manipulation through Dialogue
 
 Confirmed to speak in person.
