@@ -11,7 +11,7 @@ Submitted demos should support real-time human–robot interaction via one or mo
 - Voice interaction  
 - Web-based gestures such as clicking, dragging, and pointing  
 
-Demos are expected to illustrate human–robot interaction, shared autonomy, human-aware planning, or human intervention and failure recovery in realistic mobile manipulation scenarios. **All live demos will be invited to present for oral talks.**
+Demos are expected to illustrate human–robot interaction, shared autonomy, human-aware planning, or human intervention and failure recovery in realistic mobile manipulation scenarios. **Selected live demos will be invited to present for oral talks.**
 
 In addition to live demos, we also welcome **video demos** for systems that are not yet ready for live deployment. Video demos should clearly illustrate the interaction design, system behavior, and key challenges addressed, and may be selected during for discussion.
 
