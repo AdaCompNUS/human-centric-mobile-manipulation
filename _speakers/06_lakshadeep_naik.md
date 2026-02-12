@@ -6,7 +6,7 @@ appointment: "Demo Speaker"
 affil: KTH Royal Institute of Technology
 affil_link: https://www.kth.se/
 img: Lakshadeep.jpeg
-webpage: https://lakshadeepnaik.github.io/
+webpage: https://lakshadeep.github.io/
 pi_name: Prof. Danica Kragic
 pi_affil: KTH Royal Institute of Technology
 pi_img: avatar.jpg
