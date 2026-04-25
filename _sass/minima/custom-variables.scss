@@ -1,5 +1,9 @@
 // Placeholder to allow overriding predefined variables smoothly.
 
+// Never match Minima’s @media (max-width: $on-palm) so the header always uses the wide layout
+// (safe fallback if a browser ignores the fixed-width viewport; pair with _includes/head.html)
+$on-palm: 0;
+
 // Geometric sans (Montserrat) — see _includes/custom-head.html for Google Fonts
 $base-font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 $base-line-height: 1.6;
