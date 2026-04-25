@@ -1,1 +1,11 @@
 // Placeholder to allow overriding predefined variables smoothly.
+
+// Geometric sans (Montserrat) — see _includes/custom-head.html for Google Fonts
+$base-font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$base-line-height: 1.6;
+
+// Soft body text; links keep default blue from the classic skin
+$text-color: #333333;
+
+// Warm ceramic off-white (softer & slightly warmer than Minima’s #fdfdfd)
+$background-color: #f5f0f0;

@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Human-centric Mobile Manipulation"
+title: "Human-Centric Mobile Manipulation"
 email: human.mobile.manip@gmail.com
 # description: >- # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for the workshop site here.
@@ -39,8 +39,8 @@ header_pages:
 - speakers.md
 - schedule.md
 # - organizers.md
-- callforvideos.md
 - callforpapers.md
+- callforvideos.md
 - papers.md
 - contactus.md
 

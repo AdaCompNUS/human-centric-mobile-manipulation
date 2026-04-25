@@ -4,10 +4,14 @@ title:
 layout: home
 ---
 
-## <center><span style="color:#2F5597">Human-centric Mobile Manipulation Workshop</span></center>
-##### <center>RSS 2026 Workshop</center>
-##### <center>Date & Time: TBD</center>
-##### <center>Location: TBD</center>
+<section class="home-hero" style="background-image: url('{{ '/assets/img/rss2026.svg' | relative_url }}');" aria-label="Workshop banner">
+  <div class="home-hero__overlay">
+    <h1 class="home-hero__title">Human-Centric Mobile Manipulation Workshop</h1>
+    <p class="home-hero__subtitle">Robotics Science and Systems Conference (RSS 2026)</p>
+    <p class="home-hero__meta">Date &amp; time: TBD</p>
+    <p class="home-hero__meta">Location: Sydney, Australia</p>
+  </div>
+</section>
 
 Can a robot effectively perform mobile manipulation tasks in real-world environments with humans? As mobile manipulators transition from controlled lab settings into human-centered environments such as homes, hospitals, and workplaces, they must not only navigate and manipulate objects, but also communicate and collaborate with humans in a safe, intuitive, and efficient manner. Despite recent advances in autonomous mobile manipulation, robots continue to struggle with two fundamental challenges. First, establishing intuitive and reliable human–robot interaction that allows humans to convey intent, provide feedback, and intervene when necessary. Second, planning and executing human-aware motion and manipulation behaviors that explicitly account for human presence, safety, comfort, and collaborative dynamics. Addressing these challenges is essential for enabling robots to operate as effective partners rather than isolated autonomous agents in real-world, human-centric environments. This workshop aims to bring together researchers and practitioners to develop a shared understanding of these challenges, explore emerging solutions, and identify promising research directions in human-centric mobile manipulation.
 
@@ -16,17 +20,18 @@ In particular, this workshop aims to address the following questions:
 * How should tasks, goals, constraints, and preferences be specified for mobile manipulation in human environments?
 * How can robots plan and act in ways that are explicitly aware of human presence, safety, and comfort?
 
-To support easy human-robot connections, we developed [RoboMesh](https://tom-bridge.nusssi.com/robomesh/), which enables all participants to play with robots, and contribute their robot demos. We welcome any contributions to our [RoboMesh](https://tom-bridge.nusssi.com/robomesh/)!
+To support easy human-robot connections, we developed [RoboMesh](https://tom-bridge.nusssi.com/robomesh/), which enables all participants to play with robots, and contribute their robot demos. 
+<!-- We welcome any contributions to our [RoboMesh](https://tom-bridge.nusssi.com/robomesh/)! -->
 
-<div style="display: flex; justify-content: center; margin-top: 0.5rem;">
+<!-- <div style="display: flex; justify-content: center; margin-top: 0.5rem;">
   <div style="flex: 1 1 300px; max-width: 70%;">
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px;">
       <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/wEbUjZfUTqU" title="RoboMesh demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </div>
-</div>
+</div> -->
 
-<br>
+
 
 ### <center>Discussion Topics</center>
 

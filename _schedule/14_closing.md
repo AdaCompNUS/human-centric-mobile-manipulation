@@ -1,7 +1,7 @@
 ---
-sequence_id: 15
+sequence_id: 14
 speaker: Organizers
 affil: ""
 title: Closing Remarks and Best Demo Award
-time: "1750 - 1800"
+time: "1730 - 18:00"
 ---

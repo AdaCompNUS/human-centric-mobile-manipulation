@@ -1,2 +1,124 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+body {
+  letter-spacing: 0.01em;
+}
+
+// Site name in header — default Minima uses ~1.625rem, which dwarfs nav links
+.site-header .site-title {
+  @include relative-font-size(1.2);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+// Minima’s .page-content has padding: $spacing-unit 0 (~30px top), which reads as
+// a white strip between the header and a full-bleed hero.
+main.page-content:has(.home-hero) {
+  padding-top: 0;
+}
+
+// Full-bleed hero (breaks out of .wrapper) — home index.md
+// Height matches assets/img/rss2026.svg viewBox (1084.8 × 182.4 → wide strip)
+.home-hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  // Match rss2026.svg viewBox; min-height keeps the strip readable on narrow phones
+  aspect-ratio: unquote("1084.8 / 182.4");
+  min-height: 8.5rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+// Full-bleed dimming layer over the background image (edge to edge)
+.home-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.home-hero__overlay {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  max-width: 60rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.75rem 1.25rem;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+@media screen and (min-width: 700px) {
+  .home-hero__overlay {
+    padding: 1rem 1.75rem;
+  }
+}
+
+.home-hero__title {
+  margin: 0 0 0.65rem;
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (min-width: 600px) {
+  .home-hero__title {
+    font-size: 2.0rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .home-hero__title {
+    font-size: 2.3rem;
+  }
+}
+
+.home-hero__subtitle {
+  margin: 0 0 0.9rem;
+  color: #8ec8f0;
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+@media screen and (min-width: 600px) {
+  .home-hero__subtitle {
+    font-size: 1.55rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .home-hero__subtitle {
+    font-size: 1.75rem;
+  }
+}
+
+.home-hero__meta {
+  margin: 0.2rem 0 0;
+  color: #e8e8e8;
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
+@media screen and (min-width: 700px) {
+  .home-hero__meta {
+    font-size: 1.15rem;
+  }
+}
