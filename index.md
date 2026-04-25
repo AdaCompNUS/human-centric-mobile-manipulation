@@ -4,7 +4,7 @@ title:
 layout: home
 ---
 
-<section class="home-hero" style="background-image: url('{{ '/assets/img/rss2026.svg' | relative_url }}');" aria-label="Workshop banner">
+<section class="home-hero" style="background-image: url('{{ '/assets/img/rss2026.png' | relative_url }}');" aria-label="Workshop banner">
   <div class="home-hero__overlay">
     <h1 class="home-hero__title">Human-Centric Mobile Manipulation Workshop</h1>
     <p class="home-hero__subtitle">Robotics Science and Systems Conference (RSS 2026)</p>
