@@ -17,11 +17,11 @@ layout: default
           <p align="center">
             {% if speaker.img %}
             <img class="people-pic"
-              src="{{ speaker.img | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}"
+              src="{{ speaker.img | prepend: '/assets/img/speakers/' | relative_url }}"
               alt="{{ speaker.name }}" style="width: 120px; height: 120px; object-fit: cover; border-radius: 10px;">
             {% else %}
             <img class="people-pic"
-              src="{{ 'avatar.jpg' | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}"
+              src="{{ 'avatar.jpg' | prepend: '/assets/img/speakers/' | relative_url }}"
               alt="{{ speaker.name }}" style="width: 120px; height: 120px; object-fit: cover; border-radius: 10px;">
             {% endif %}
           </p>

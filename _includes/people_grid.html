@@ -1,15 +1,17 @@
 {% assign people = include.people | sort: 'sequence_id' %}
 {% assign image_subdir = include.image_subdir | default: 'speakers' %}
+{% assign col_width = include.columns | default: 4 %}
+{% if col_width == 5 %}{% assign item_basis = "170px" %}{% else %}{% assign item_basis = "200px" %}{% endif %}
 <div class="people-grid">
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;">
     {% for person in people %}
-    <div style="flex: 0 1 200px; text-align: center;">
+    <div style="flex: 0 1 {{ item_basis }}; text-align: center;">
       {% assign image_path = '/assets/img/' | append: image_subdir | append: '/' %}
       {% if person.img %}
-      <img class="people-pic" src="{{ person.img | prepend: image_path | prepend: site.baseurl | prepend: site.url }}"
+      <img class="people-pic" src="{{ person.img | prepend: image_path | relative_url }}"
         alt="{{ person.name }}" style="width: 150px; height: 150px; object-fit: cover; border-radius: 10px;">
       {% else %}
-      <img class="people-pic" src="{{ 'avatar.jpg' | prepend: image_path | prepend: site.baseurl | prepend: site.url }}"
+      <img class="people-pic" src="{{ 'avatar.jpg' | prepend: image_path | relative_url }}"
         alt="{{ person.name }}" style="width: 150px; height: 150px; object-fit: cover; border-radius: 10px;">
       {% endif %}
       <div style="margin-top: 0.5rem;">

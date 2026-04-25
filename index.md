@@ -16,27 +16,17 @@ In particular, this workshop aims to address the following questions:
 * How should tasks, goals, constraints, and preferences be specified for mobile manipulation in human environments?
 * How can robots plan and act in ways that are explicitly aware of human presence, safety, and comfort?
 
-<br>
+To support easy human-robot connections, we developed [RoboMesh](https://tom-bridge.nusssi.com/robomesh/), which enables all participants to play with robots, and contribute their robot demos. We welcome any contributions to our [RoboMesh](https://tom-bridge.nusssi.com/robomesh/)!
 
-<!-- <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-top: 1rem;">
-  <div style="flex: 1 1 300px; max-width: 33%;">
+<div style="display: flex; justify-content: center; margin-top: 0.5rem;">
+  <div style="flex: 1 1 300px; max-width: 70%;">
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px;">
-      <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/r5yw3hcRvxQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </div>
-  <div style="flex: 1 1 300px; max-width: 33%;">
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px;">
-      <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </div>
-  <div style="flex: 1 1 300px; max-width: 33%;">
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px;">
-      <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/wEbUjZfUTqU" title="RoboMesh demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </div>
 </div>
 
-<br> -->
+<br>
 
 ### <center>Discussion Topics</center>
 
@@ -74,17 +64,17 @@ All live demos will be deployed and demonstrated via <a href="https://tom-bridge
 ### <center>Keynote Speakers</center>
 
 {% assign keynotes = site.speakers | where: "type", "keynote" %}
-{% include people_grid.html people=keynotes image_subdir="speakers" %}
+{% include people_grid.html people=keynotes image_subdir="speakers" columns=5 %}
 
 <br>
 
 ### <center>Demo Speakers</center>
 
 {% assign demos = site.speakers | where: "type", "demo" %}
-{% include people_grid.html people=demos image_subdir="speakers" %}
+{% include people_grid.html people=demos image_subdir="speakers" columns=5 %}
 
 ### <center>Organizers</center>
 
-{% include people_grid.html people=site.organizers image_subdir="organizers" %}
+{% include people_grid.html people=site.organizers image_subdir="organizers" columns=5 %}
 
 <br>
