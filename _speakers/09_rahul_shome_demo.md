@@ -9,7 +9,7 @@ img: avatar.jpg
 pi_name: Prof. Rahul Shome
 pi_affil: Australian National University
 pi_img: rahul.webp
-pi_webpage: https://researchportalplus.anu.edu.au/en/persons/rahul-shome/
+pi_webpage: https://rahulsho.me/
 lab: Robotics Group, School of Computing
 demo_name: "TAMP for Execution in the Unknown and Uncertain"
 ---

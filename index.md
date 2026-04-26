@@ -38,10 +38,11 @@ To support easy human-robot connections, we developed [RoboMesh](https://tom-bri
 We invite submissions of papers and live demos, including, but not limited to, the following related topics:
 
 * Human-Robot Interaction Interface Design
-* Human-Aware Whole Body Motion Planning & Control
+* Safe Whole Body Motion Planning & Control
 * Foundation Models for Mobile Manipulation
 * Uncertainty and Risk-Aware Decision Making
 * Shared Autonomy & Responsibility Allocation
+* Open-World Planning in Human-Centric Environments
 * Failure Prediction & Recovery
 * Benchmarks & Evaluation for Human-Centered Manipulation
 
@@ -50,7 +51,7 @@ We invite submissions of papers and live demos, including, but not limited to, t
 ### <center>Call for Papers</center>
 
 <p style="text-align: left;">
-We invite paper submissions on <strong>human-centric mobile manipulation</strong>. The submission deadline is TBD. Please see the
+We invite paper submissions on human-centric mobile manipulation. The submission deadline is <strong>May 31, 2026 (AoE)</strong>. Please see the
 <a href="{{ '/callforpapers/' | relative_url }}">Call for Papers</a> for topics and submission guidelines. 
 </p>
 
@@ -61,7 +62,7 @@ We invite paper submissions on <strong>human-centric mobile manipulation</strong
 <p style="text-align: left;">
 We invite <strong>live, interactive demos</strong> (and also <strong>video demos</strong>) on human-centric mobile manipulation.
 All live demos will be deployed and demonstrated via <a href="https://tom-bridge.nusssi.com/robomesh/">RoboMesh</a>.
-<strong>Deadlines:</strong> TBD (AoE). See the <a href="{{ '/callforvideos/' | relative_url }}">Call for Demos</a> page for submission instructions.
+Deadlines:<strong> May 31, 2026 (AoE)</strong>. See the <a href="{{ '/callforvideos/' | relative_url }}">Call for Demos</a> page for submission instructions.
 </p>
 
 <br>
@@ -78,7 +79,8 @@ All live demos will be deployed and demonstrated via <a href="https://tom-bridge
 {% assign demos = site.speakers | where: "type", "demo" %}
 {% include people_grid.html people=demos image_subdir="speakers" columns=5 %}
 
-### <center>Organizers</center>
+<br>
+### <center>Organizing Committee</center>
 
 {% include people_grid.html people=site.organizers image_subdir="organizers" columns=5 %}
 

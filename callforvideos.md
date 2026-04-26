@@ -46,6 +46,7 @@ To submit a demo, please upload your slides (describing the motivation, setup, a
 
 *(All deadlines are Anywhere on Earth, AoE)*
 
-* Submission portal opens: **TBD**
-* Live Demo/Video submission deadline: **TBD**
+* Submission portal opens: **May 1, 2026** 
+* Live Demo/Video submission deadline: **May 31, 2026**
+* Notification of acceptance: **14 June, 2026**  
 * Workshop date: **TBD**
