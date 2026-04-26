@@ -35,7 +35,7 @@ We welcome contributions in areas including, but not limited to, the following t
 
 **Live Demo Submission Instructions**: 
 Live demo submissions should first request an account via the provided [form](https://docs.google.com/forms/d/e/1FAIpQLSfoDhX9v1iToDd-sn_Uvo01HVnrHpEYU4ni_a0OiMRBk6SY9Q/viewform)
-and then following this [GitHub]() repo to set up the robot and interaction interface. 
+and then following this [GitHub](https://github.com/AdaCompNUS/RoboMesh_Server/tree/master) repo to set up the robot and interaction interface. 
 
 To submit a demo, please upload your slides (describing the motivation, setup, and key takeaways) and a video recording of the interaction via the [Google Form]().
 

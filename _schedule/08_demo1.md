@@ -5,5 +5,4 @@ pi: Prof. Panpan Cai
 affil: Shanghai Jiao Tong University
 title: "Demo Talk 1 - UniDomain: Milk Tea Barista"
 time: "1620 - 1625"
-comment: "5 min short talk"
 ---

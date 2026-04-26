@@ -5,5 +5,4 @@ pi: Prof. Rahul Shome
 affil: Australian National University
 title: "Demo Talk 2 - TAMP for Execution in the Unknown and Uncertain"
 time: "1625 - 1630"
-comment: "5 min short talk"
 ---
