@@ -31,21 +31,21 @@ Late-breaking ideas. -->
 
 - **Paper length**: Up to 4 pages (excluding references & appendices)
 - **Format**: RSS paper format; submissions do not need to be anonymized
-- **Submission platform**: [OpenReview](https://openreview.net/)
-- **Supplementary material**: Videos are strongly encouraged and should be provided via external links.
+- **Submission platform**: [OpenReview](https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Workshop/Human-centric_Mobile_Manipulation)
+- **Supplementary material**: Videos are encouraged and should be provided via external links.
 
-Submissions will be reviewed based on **relevance, technical quality, clarity, and potential impact**. 
+Submissions will be reviewed based on **relevance, technical quality, clarity, and potential impact**. Selected papers will be invited for **poster presentations** during the workshop
 
 <!-- Selected papers may be invited for **oral presentations and poster sessions** during the workshop. -->
 
 ## Important Dates  
 *(All deadlines are Anywhere on Earth, AoE)*
 
-- Submission portal opens: **May 1, 2026**  
-- Submission deadline: **May 31, 2026**  
-- Notification of acceptance: **14 June, 2026**  
-- Camera-ready submission deadline: **TBD**
-- **Workshop date**: **TBD**
+- Submission portal opens: **May 1, 2026**
+- Submission deadline: **June 12, 2026**
+- Notification of acceptance: **June 19, 2026**
+- Camera-ready submission deadline: **June 26, 2026**
+- **Workshop date**: **June 17, 2026**
 
 ---
 

@@ -23,13 +23,22 @@ Demos are expected to illustrate human–robot interaction, shared autonomy, hum
 <!-- In addition to live demos, we also welcome **video demos** for systems that are not yet ready for live deployment. Video demos should clearly illustrate the interaction design, system behavior, and key challenges addressed, and may be selected during for discussion. -->
 We welcome contributions in areas including, but not limited to, the following topics:
 
-* **Human-Robot Interaction Interface Design**
+* Human-Robot Interaction and Collaboration
+* Cognitive Architectures for Robots in Human Environments
+* Foundation Models for Mobile Manipulation
+* Safe Whole Body Motion Planning & Control
+* Planning Under Uncertainty and Risk
+* Shared Autonomy & Responsibility Allocation
+* Failure Prediction & Recovery
+* Socially Aware Navigation and Manipulation
+
+<!-- * **Human-Robot Interaction Interface Design**
 * **Human-Aware Whole Body Motion Planning & Control**
 * **Foundation Models for Mobile Manipulation**
 * **Uncertainty and Risk-Aware Decision Making**
 * **Shared Autonomy & Responsibility Allocation**
 * **Failure Prediction & Recovery**
-* **Benchmarks & Evaluation for Human-Centered Manipulation**
+* **Benchmarks & Evaluation for Human-Centered Manipulation** -->
 
 ## Demo Submission Instructions
 
@@ -46,7 +55,7 @@ To submit a demo, please upload your slides (describing the motivation, setup, a
 
 *(All deadlines are Anywhere on Earth, AoE)*
 
-* Submission portal opens: **May 1, 2026** 
-* Live Demo/Video submission deadline: **May 31, 2026**
-* Notification of acceptance: **14 June, 2026**  
-* Workshop date: **TBD**
+* Submission portal opens: **May 8, 2026** 
+* Live Demo/Video submission deadline: **June 19, 2026**
+* Notification of acceptance: **June 23, 2026**  
+* Workshop date: **July 17, 2026**
