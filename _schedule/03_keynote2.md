@@ -1,7 +1,7 @@
 ---
 sequence_id: 3
-speaker: "Prof. Roberto Martín-Martín"
-affil: University of Texas at Austin
-title: "Keynote 2 - Human-Robot Collaboration for Mobile Manipulation through Dialogue"
+speaker: "TBA"
+affil: ""
+title: "Keynote 2 - TBA"
 time: "1425 - 1445"
 ---

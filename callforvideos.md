@@ -42,20 +42,26 @@ We welcome contributions in areas including, but not limited to, the following t
 
 ## Demo Submission Instructions
 
-**Live Demo Submission Instructions**: 
-Live demo submissions should first request an account via the provided [form](https://docs.google.com/forms/d/e/1FAIpQLSfoDhX9v1iToDd-sn_Uvo01HVnrHpEYU4ni_a0OiMRBk6SY9Q/viewform)
+**Live Demo Submission Instructions**:
+If you are interested in submitting a live demo, please submit a one-page proposal and your demo video through the [Google Form]().
+
+We will send invitations to selected demos, granting access to our RoboMesh platform. After acceptance, demo presenters will integrate their demos into the RoboMesh platform.
+
+<!-- Live demo submissions should first request an account via the provided [form](https://docs.google.com/forms/d/e/1FAIpQLSfoDhX9v1iToDd-sn_Uvo01HVnrHpEYU4ni_a0OiMRBk6SY9Q/viewform)
 and then following this [GitHub](https://github.com/AdaCompNUS/RoboMesh_Server/tree/master) repo to set up the robot and interaction interface. 
 
-To submit a demo, please upload your slides (describing the motivation, setup, and key takeaways) and a video recording of the interaction via the [Google Form]().
+To submit a demo, please upload your slides (describing the motivation, setup, and key takeaways) and a video recording of the interaction via the ≈. -->
 
 
-**Video Demo Submission Instructions**: Video demo submissions should be in MP4 format, and no longer than 2 minutes. Videos are to be uploaded at this [Google Form]().
+<!-- **Video-only Demo Submission Instructions**: Video demo submissions should be in MP4 format, and no longer than 2 minutes. Videos are to be uploaded at this [Google Form](). -->
 
 ## Important Dates
 
 *(All deadlines are Anywhere on Earth, AoE)*
 
 * Submission portal opens: **May 8, 2026** 
-* Live Demo/Video submission deadline: **June 19, 2026**
-* Notification of acceptance: **June 23, 2026**  
+* Live Demo proposal submission deadline: **June 5, 2026**
+<!-- * Video-only submission deadline: **June 23, 2026** -->
+* Notification of acceptance: **June 12, 2026**
+* Demo intergration and submission deadline: **June 26, 2026**
 * Workshop date: **July 17, 2026**
