@@ -56,6 +56,15 @@ attribution: >
 # Displays a "last updated" date in the footer if set to "true"
 last_updated: true
 
+# Default social preview image (LinkedIn, Slack, etc.) — jekyll-seo-tag og:image / twitter:image
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/img/Workshoplogo.png
+        alt: Human-Centric Mobile Manipulation Workshop logo
+
 # Define collections (speakers, organizers, papers)
 # To turn off any of these collections, just set "output" to "false"
 collections:

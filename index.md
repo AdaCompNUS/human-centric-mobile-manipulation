@@ -2,6 +2,9 @@
 permalink: /
 title:
 layout: home
+image:
+  path: /assets/img/Workshoplogo.png
+  alt: Human-Centric Mobile Manipulation Workshop logo
 ---
 
 <section class="home-hero" style="background-image: url('{{ '/assets/img/rss2026.png' | relative_url }}');" aria-label="Workshop banner">
