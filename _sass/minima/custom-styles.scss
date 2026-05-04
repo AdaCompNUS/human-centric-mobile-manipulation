@@ -19,7 +19,7 @@ main.page-content:has(.home-hero) {
 }
 
 // Full-bleed hero (breaks out of .wrapper) — home index.md
-// Height matches assets/img/rss2026.svg viewBox (1084.8 × 182.4 → wide strip)
+// Mobile lets the overlay drive the height; ≥700px restores the wide-strip aspect.
 .home-hero {
   position: relative;
   display: flex;
@@ -29,14 +29,20 @@ main.page-content:has(.home-hero) {
   max-width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-  // Match rss2026.svg viewBox; min-height keeps the strip readable on narrow phones
-  aspect-ratio: unquote("1084.8 / 182.4");
-  min-height: 8.5rem;
+  padding-block: 1.5rem;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 0;
   margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 700px) {
+  .home-hero {
+    aspect-ratio: unquote("1084.8 / 182.4");
+    min-height: 8.5rem;
+    padding-block: 0;
+  }
 }
 
 // Full-bleed dimming layer over the background image (edge to edge)

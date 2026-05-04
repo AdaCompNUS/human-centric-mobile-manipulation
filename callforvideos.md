@@ -43,7 +43,7 @@ We welcome contributions in areas including, but not limited to, the following t
 ## Demo Submission Instructions
 
 **Live Demo Submission Instructions**:
-If you are interested in submitting a live demo, please submit a one-page proposal and your demo video through the [Google Form]().
+If you are interested in submitting a live demo, please submit a one-page proposal and your demo video through the [Google Form](https://forms.gle/36C7Df2bRE72mDC2A). The demo video should be **less than 5 minutes**.
 
 We will send invitations to selected demos, granting access to our RoboMesh platform. After acceptance, demo presenters will integrate their demos into the RoboMesh platform.
 

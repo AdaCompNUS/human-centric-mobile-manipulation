@@ -45,7 +45,7 @@ Submissions will be reviewed based on **relevance, technical quality, clarity, a
 - Submission deadline: **June 12, 2026**
 - Notification of acceptance: **June 19, 2026**
 - Camera-ready submission deadline: **June 26, 2026**
-- **Workshop date**: **June 17, 2026**
+- **Workshop date**: **July 17, 2026**
 
 ---
 

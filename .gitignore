@@ -1,8 +1,22 @@
+# Jekyll build output and caches
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+
+# Ruby / Bundler
 vendor
+.bundle
+
+# macOS Finder metadata
+.DS_Store
+
+# Editor / tool local state
+.claude/
+.idea/
+.vscode/
+*.swp
+*.swo
 
 # Accidental copy of a home path; breaks Jekyll if present (duplicate output paths)
 Users/

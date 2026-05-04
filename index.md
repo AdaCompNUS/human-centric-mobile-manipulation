@@ -62,6 +62,7 @@ We invite paper submissions on human-centric mobile manipulation. The submission
 <p style="text-align: left;">
 We invite <strong>live, interactive demos</strong> (and also <strong>video demos</strong>) on human-centric mobile manipulation.
 All live demos will be deployed and demonstrated via <a href="https://tom-bridge.nusssi.com/robomesh/">RoboMesh</a>.
+Demo videos should be <strong>less than 5 minutes</strong>.
 Proposal Submission Deadlines:<strong> June 5, 2026 (AoE)</strong>. Demo Submission Deadlines: June 26, 2026 (AoE). See the <a href="{{ '/callforvideos/' | relative_url }}">Call for Demos</a> page for submission instructions.
 </p>
 
