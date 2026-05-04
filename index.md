@@ -8,7 +8,7 @@ layout: home
   <div class="home-hero__overlay">
     <h1 class="home-hero__title">Human-Centric Mobile Manipulation Workshop</h1>
     <p class="home-hero__subtitle">Robotics Science and Systems Conference (RSS 2026)</p>
-    <p class="home-hero__meta">Date &amp; time: TBD</p>
+    <p class="home-hero__meta">Date &amp; time: July 17, 2026</p>
     <p class="home-hero__meta">Location: Sydney, Australia</p>
   </div>
 </section>
