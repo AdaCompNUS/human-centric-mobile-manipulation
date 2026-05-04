@@ -5,7 +5,7 @@ name: Jiacheng Xu
 appointment: "Demo Speaker"
 affil: KTH Royal Institute of Technology
 affil_link: https://www.kth.se/
-img: avatar.jpg
+img: jcxu.jpg
 webpage: https://www.kth.se/profile/jiacxu?l=en
 pi_name: Prof. Danica Kragic
 pi_affil: KTH Royal Institute of Technology
