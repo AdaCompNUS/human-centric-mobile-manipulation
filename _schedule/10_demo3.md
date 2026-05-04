@@ -1,6 +1,6 @@
 ---
 sequence_id: 10
-speaker: Dr. Lakshadeep Naik
+speaker: Jiacheng Xu
 pi: Prof. Danica Kragic
 affil: KTH Royal Institute of Technology
 title: "Demo Talk 3 - TBD"

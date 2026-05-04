@@ -1,12 +1,12 @@
 ---
 sequence_id: 7
 type: demo
-name: Dr. Lakshadeep Naik
+name: Jiacheng Xu
 appointment: "Demo Speaker"
 affil: KTH Royal Institute of Technology
 affil_link: https://www.kth.se/
-img: Lakshadeep.jpeg
-webpage: https://lakshadeep.github.io/
+img: avatar.jpg
+webpage: https://www.kth.se/profile/jiacxu?l=en
 pi_name: Prof. Danica Kragic
 pi_affil: KTH Royal Institute of Technology
 pi_img: avatar.jpg
