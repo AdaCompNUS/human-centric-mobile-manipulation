@@ -4,7 +4,7 @@ title: Call for Demos
 permalink: /callforvideos/
 ---
 
-We invite **live, interactive demos** showcasing human-centric mobile manipulation systems. All demos will be deployed and demonstrated through **[RoboMesh](https://tom-bridge.nusssi.com/robomesh/)**, a web-based platform that enables **online interaction with robots**.
+We invite **live, interactive demos** showcasing human-centric mobile manipulation systems. All demos will be deployed and demonstrated through **[RoboMesh](https://robomesh.ssilabs.org)**, a web-based platform that enables **online interaction with robots**.
 
 <div style="display: flex; justify-content: center; margin-top: 0.5rem;">
   <div style="flex: 1 1 300px; max-width: 70%;">

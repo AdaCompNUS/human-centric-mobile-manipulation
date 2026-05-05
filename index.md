@@ -23,8 +23,8 @@ In particular, this workshop aims to address the following questions:
 * How should tasks, goals, constraints, and preferences be specified for mobile manipulation in human environments?
 * How can robots plan and act in ways that are explicitly aware of human presence, safety, and comfort?
 
-To support easy human-robot connections, we developed [RoboMesh](https://tom-bridge.nusssi.com/robomesh/), which enables all participants to play with robots, and contribute their robot demos. 
-<!-- We welcome any contributions to our [RoboMesh](https://tom-bridge.nusssi.com/robomesh/)! -->
+To support easy human-robot connections, we developed [RoboMesh](https://robomesh.ssilabs.org), which enables all participants to play with robots, and contribute their robot demos. 
+<!-- We welcome any contributions to our [RoboMesh](https://robomesh.ssilabs.org)! -->
 
 <!-- <div style="display: flex; justify-content: center; margin-top: 0.5rem;">
   <div style="flex: 1 1 300px; max-width: 70%;">
@@ -64,7 +64,7 @@ We invite paper submissions on human-centric mobile manipulation. The submission
 
 <p style="text-align: left;">
 We invite <strong>live, interactive demos</strong> (and also <strong>video demos</strong>) on human-centric mobile manipulation.
-All live demos will be deployed and demonstrated via <a href="https://tom-bridge.nusssi.com/robomesh/">RoboMesh</a>.
+All live demos will be deployed and demonstrated via <a href="https://robomesh.ssilabs.org">RoboMesh</a>.
 Demo videos should be <strong>less than 5 minutes</strong>.
 </p>
 
