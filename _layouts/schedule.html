@@ -32,6 +32,9 @@ layout: default
 						{% else %}
 						<b>{{ scheduleitem.speaker }}</b>
 						{% endif %}
+						{% if scheduleitem.tentative %}
+						<span style="color: red;">(tentative)</span>
+						{% endif %}
 
 						{% if scheduleitem.comment %}
 						<br><i>{{ scheduleitem.comment }}</i>

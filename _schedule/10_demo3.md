@@ -4,5 +4,5 @@ speaker: Jiacheng Xu
 pi: Prof. Danica Kragic
 affil: KTH Royal Institute of Technology
 title: "Demo Talk 3 - TBD"
-time: "1630 - 1635"
+time: "1640 - 1645"
 ---

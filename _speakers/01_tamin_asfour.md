@@ -2,6 +2,7 @@
 sequence_id: 1
 type: keynote
 name: Prof. Tamim Asfour
+tentative: true
 appointment: Keynote Speaker
 affil: Karlsruhe Institute of Technology
 affil_link: https://www.kit.edu/

@@ -2,8 +2,9 @@
 {% assign image_subdir = include.image_subdir | default: 'speakers' %}
 {% assign col_width = include.columns | default: 4 %}
 {% if col_width == 5 %}{% assign item_basis = "170px" %}{% else %}{% assign item_basis = "200px" %}{% endif %}
+{% assign inner_max_width = include.inner_max_width %}
 <div class="people-grid">
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;{% if inner_max_width %} max-width: {{ inner_max_width }}; margin: 0 auto;{% endif %}">
     {% for person in people %}
     <div style="flex: 0 1 {{ item_basis }}; text-align: center;">
       {% assign image_path = '/assets/img/' | append: image_subdir | append: '/' %}
@@ -19,6 +20,9 @@
         <b><a href="{{ person.webpage }}" target="_blank">{{ person.name }}</a></b>
         {% else %}
         <b>{{ person.name }}</b>
+        {% endif %}
+        {% if person.tentative %}
+        <span style="color: red;">(tentative)</span>
         {% endif %}
         <br>
         {% if person.affil_link %}

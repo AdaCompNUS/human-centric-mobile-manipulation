@@ -82,7 +82,7 @@ See the <a href="{{ '/callforvideos/' | relative_url }}">Call for Demos</a> page
 ### <center>Keynote Speakers</center>
 
 {% assign keynotes = site.speakers | where: "type", "keynote" %}
-{% include people_grid.html people=keynotes image_subdir="speakers" columns=5 %}
+{% include people_grid.html people=keynotes image_subdir="speakers" columns=5 inner_max_width="800px" %}
 
 <br>
 
