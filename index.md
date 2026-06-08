@@ -54,7 +54,7 @@ We invite submissions of papers and live demos, including, but not limited to, t
 ### <center>Call for Papers</center>
 
 <p style="text-align: left;">
-We invite paper submissions on human-centric mobile manipulation. The submission deadline is <strong>June 12, 2026 (AoE)</strong>. Please see the
+We invite paper submissions on human-centric mobile manipulation. The submission deadline is <del><strong>June 12, 2026 (AoE)</strong></del> <span style="color: red;"><strong>June 22, 2026 (AoE)</strong></span>. Please see the
 <a href="{{ '/callforpapers/' | relative_url }}">Call for Papers</a> for topics and submission guidelines. 
 </p>
 
@@ -69,8 +69,8 @@ Demo videos should be <strong>less than 5 minutes</strong>.
 </p>
 
 <ul>
-  <li><strong>Proposal Submission Deadline:</strong> June 5, 2026 (AoE)</li>
-  <li><strong>Demo Submission Deadline:</strong> June 26, 2026 (AoE)</li>
+  <li><strong>Proposal Submission Deadline:</strong> <del>June 5, 2026 (AoE)</del> <span style="color: red;">June 19, 2026 (AoE)</span></li>
+  <li><strong>Demo Submission Deadline:</strong> <del>June 26, 2026 (AoE)</del> <span style="color: red;">July 1, 2026 (AoE)</span></li>
 </ul>
 
 <p style="text-align: left;">

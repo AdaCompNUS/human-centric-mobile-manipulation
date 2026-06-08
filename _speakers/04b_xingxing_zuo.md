@@ -9,5 +9,5 @@ img: xingxing.jpg
 webpage: https://xingxingzuo.github.io/
 ---
 
-**Keynote Topic:** TBA
+**Keynote Topic:** Towards Spatially Intelligent Robots: Robust 3D Perception for Open-World Autonomy
 

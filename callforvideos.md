@@ -60,8 +60,8 @@ To submit a demo, please upload your slides (describing the motivation, setup, a
 *(All deadlines are Anywhere on Earth, AoE)*
 
 * Submission portal opens: **May 8, 2026** 
-* Live Demo proposal submission deadline: **June 5, 2026**
-<!-- * Video-only submission deadline: **June 23, 2026** -->
-* Notification of acceptance: **June 12, 2026**
-* Demo intergration and submission deadline: **June 26, 2026**
+* Live Demo proposal submission deadline: <del>**June 5, 2026**</del> <span style="color: red;">**June 19, 2026**</span>
+<!-- * Video-only submission deadline: **June 23, 2026** **July 7, 2026** -->
+* Notification of acceptance: <del>**June 12, 2026**</del> <span style="color: red;">**June 26, 2026**</span>
+* Demo intergration and submission deadline: <del>**June 26, 2026**</del> <span style="color: red;">**July 1, 2026**</span>
 * Workshop date: **July 17, 2026**
