@@ -54,7 +54,7 @@ We invite submissions of papers and live demos, including, but not limited to, t
 ### <center>Call for Papers</center>
 
 <p style="text-align: left;">
-We invite paper submissions on human-centric mobile manipulation. The submission deadline is <del><strong>June 12, 2026 (AoE)</strong></del> <span style="color: red;"><strong>June 22, 2026 (AoE)</strong></span>. Please see the
+We invite paper submissions on human-centric mobile manipulation. The submission deadline is <del><strong>June 12, 2026 (AoE)</strong></del> <span style="color: red;"><strong>June 26, 2026 (AoE)</strong></span>. Please see the
 <a href="{{ '/callforpapers/' | relative_url }}">Call for Papers</a> for topics and submission guidelines. 
 </p>
 
@@ -82,7 +82,7 @@ See the <a href="{{ '/callforvideos/' | relative_url }}">Call for Demos</a> page
 ### <center>Keynote Speakers</center>
 
 {% assign keynotes = site.speakers | where: "type", "keynote" %}
-{% include people_grid.html people=keynotes image_subdir="speakers" columns=5 inner_max_width="800px" %}
+{% include people_grid.html people=keynotes image_subdir="speakers" columns=5 %}
 
 <br>
 
