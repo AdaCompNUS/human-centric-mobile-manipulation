@@ -103,8 +103,8 @@ We will send invitations to selected demos, granting access to our RoboMesh plat
 
 *(All deadlines are Anywhere on Earth, AoE)*
 
-- <span style="color:#999;">Submission portal opens: <strong>May 8, 2026</strong></span>
-- <span style="color:#999;">Live demo proposal submission deadline: <strong>June 19, 2026</strong></span>
-- <span style="color:#999;">Notification of acceptance: <strong>June 26, 2026</strong></span>
-- <span style="color:#999;">Demo integration and submission deadline: <strong>July 1, 2026</strong></span>
+- <span style="color:#999; text-decoration: line-through;">Submission portal opens: <strong>May 8, 2026</strong></span>
+- <span style="color:#999; text-decoration: line-through;">Live demo proposal submission deadline: <strong>June 19, 2026</strong></span>
+- <span style="color:#999; text-decoration: line-through;">Notification of acceptance: <strong>June 26, 2026</strong></span>
+- <span style="color:#999; text-decoration: line-through;">Demo integration and submission deadline: <strong>July 1, 2026</strong></span>
 - **Workshop date**: **July 17, 2026**

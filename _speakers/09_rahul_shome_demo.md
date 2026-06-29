@@ -6,6 +6,7 @@ appointment: "Demo Speaker"
 affil: Australian National University
 affil_link: https://www.anu.edu.au/
 img: demos/hao_lu.jpg
+img_position: top
 webpage: https://scholar.google.com/citations?hl=en&user=GuUjRgsAAAAJ
 pi_name: Prof. Rahul Shome
 pi_affil: Australian National University

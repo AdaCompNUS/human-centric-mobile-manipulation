@@ -54,7 +54,7 @@ We invite submissions of papers and live demos, including, but not limited to, t
 ### <center>Call for Papers</center>
 
 <p style="text-align: left;">
-We invite paper submissions on human-centric mobile manipulation. The submission deadline was <span style="color:#999;"><strong>June 26, 2026 (AoE)</strong></span>. Please see the
+We invite paper submissions on human-centric mobile manipulation. The submission deadline was <span style="color:#999; text-decoration: line-through;"><strong>June 26, 2026 (AoE)</strong></span>. Please see the
 <a href="{{ '/callforpapers/' | relative_url }}">Call for Papers</a> for topics and submission guidelines. 
 </p>
 
@@ -68,14 +68,14 @@ All live demos will be deployed and demonstrated via <a href="https://robomesh.s
 Demo videos should be <strong>less than 5 minutes</strong>.
 </p>
 
-<ul style="color:#999;">
+<ul style="color:#999; text-decoration: line-through;">
   <li><strong>Proposal Submission Deadline:</strong> June 19, 2026 (AoE)</li>
   <li><strong>Demo Submission Deadline:</strong> July 1, 2026 (AoE)</li>
 </ul>
 
-<p style="text-align: left;">
-Workshop demo submissions are now closed, but you can still contribute to <a href="https://robomesh.ssilabs.org">RoboMesh</a> anytime — see the <a href="{{ '/callforvideos/' | relative_url }}">Call for Demos</a> page.
-</p>
+<div style="border-left: 4px solid #1e8449; background: #edf7f0; padding: 0.9rem 1.1rem; border-radius: 6px; margin: 1rem 0; color:#555;">
+Workshop demo submissions are now closed, but you can still contribute to <a href="https://robomesh.ssilabs.org">RoboMesh</a> anytime. See the <a href="{{ '/callforvideos/' | relative_url }}">Call for Demos</a> page.
+</div>
 
 <br>
 

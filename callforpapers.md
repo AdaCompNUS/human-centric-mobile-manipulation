@@ -41,10 +41,10 @@ Submissions will be reviewed based on **relevance, technical quality, clarity, a
 ## Important Dates  
 *(All deadlines are Anywhere on Earth, AoE)*
 
-- <span style="color:#999;">Submission portal opens: <strong>May 1, 2026</strong></span>
-- <span style="color:#999;">Submission deadline: <strong>June 26, 2026</strong></span>
-- <span style="color:#999;">Notification of acceptance: <strong>June 30, 2026</strong></span>
-- <span style="color:#999;">Camera-ready submission deadline: <strong>July 3, 2026</strong></span>
+- <span style="color:#999; text-decoration: line-through;">Submission portal opens: <strong>May 1, 2026</strong></span>
+- <span style="color:#999; text-decoration: line-through;">Submission deadline: <strong>June 26, 2026</strong></span>
+- <span style="color:#999; text-decoration: line-through;">Notification of acceptance: <strong>June 30, 2026</strong></span>
+- <span style="color:#999; text-decoration: line-through;">Camera-ready submission deadline: <strong>July 3, 2026</strong></span>
 - **Workshop date**: **July 17, 2026**
 
 ---

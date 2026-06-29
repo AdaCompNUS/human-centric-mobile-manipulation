@@ -10,10 +10,10 @@
       {% assign image_path = '/assets/img/' | append: image_subdir | append: '/' %}
       {% if person.img %}
       <img class="people-pic" src="{{ person.img | prepend: image_path | relative_url }}"
-        alt="{{ person.name }}" style="width: 150px; height: 150px; object-fit: cover; border-radius: 10px;">
+        alt="{{ person.name }}" style="width: 150px; height: 150px; object-fit: cover; object-position: {{ person.img_position | default: 'center' }}; border-radius: 10px;">
       {% else %}
       <img class="people-pic" src="{{ 'avatar.jpg' | prepend: image_path | relative_url }}"
-        alt="{{ person.name }}" style="width: 150px; height: 150px; object-fit: cover; border-radius: 10px;">
+        alt="{{ person.name }}" style="width: 150px; height: 150px; object-fit: cover; object-position: {{ person.img_position | default: 'center' }}; border-radius: 10px;">
       {% endif %}
       <div style="margin-top: 0.5rem;">
         {% if person.webpage %}
