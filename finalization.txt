@@ -1,0 +1,22 @@
+1. Replace speaker: Jen Jen Chung to Lucas Carvalho de Lima, photo under assets/img/speakers
+2. Lucas talk title: Physical Human-Robot Interaction: From Manipulation to Whole-Body Control
+3. Rahul (ANU) demo from: Hao Lu, photo under assets/img/speakers/demos
+4. Panpan presentation title: Commonsense Planning Under Uncertainty
+5. Jiacheng demo title: VLA Litmus: How VLA Succeeds and Fails?
+6. check through all pages to make sure the changes are consistent. 
+7. update the deadlines, make them gray, which means already passed. 
+8. update the call for demo page, say something properly to express the meaning of: even through the deadline is passed for RSS workshop, we still welcome any contributions to our RoboMesh platform. Refer to our RoboMesh promotion. Think carefully how to re-design this page:
+What if a robot "demo" wasn't just a video to watch, but a real demonstration you could interact with and probe?
+
+We are excited to introduce RoboMesh, a web-based platform that connects people to real robots through online interaction.
+
+- Real-robot interaction: remotely interact with robots through natural interfaces (language commands, voice, clicking, dragging, pointing).
+- From watching to testing: instead of only seeing curated success cases, actively try the system and observe how robots respond to diverse inputs in real time.
+- Beyond demos, toward diagnosis: logging, replay, and analysis of real robot interactions, including both successful trials and failures.
+
+We are calling for users:
+- For developers: answer key failure-analysis and HRI questions.
+- For reviewers: failed executions can be replayed, inspected, and exported, for transparency.
+- For labs: user commands, robot observations, system responses, and recovery behaviors can be collected as valuable data.
+
+Try RoboMesh: https://robomesh.ssilabs.org

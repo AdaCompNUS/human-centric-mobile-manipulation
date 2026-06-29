@@ -12,5 +12,5 @@ pi_affil: KTH Royal Institute of Technology
 pi_img: avatar.jpg
 pi_webpage: https://www.kth.se/profile/dani
 lab: Division of Robotics, Perception and Learning
-demo_name: "TBD"
+demo_name: "VLA Litmus: How VLA Succeeds and Fails?"
 ---

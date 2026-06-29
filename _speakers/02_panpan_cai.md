@@ -9,5 +9,5 @@ img: panpan.jpg
 webpage: https://cindycia.github.io/
 ---
 
-**Keynote Topic:** TBA
+**Keynote Topic:** Commonsense Planning Under Uncertainty
 

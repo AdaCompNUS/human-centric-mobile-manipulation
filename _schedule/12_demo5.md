@@ -1,8 +1,8 @@
 ---
 sequence_id: 12
-speaker: TBD
+speaker: Chengkai Wu
 pi: Prof. Boyu Zhou
-affil: Southern University of Science and Technology
+affil: The Hong Kong University of Science and Technology (Guangzhou)
 title: "Demo Talk 5 - Continuous On-the-Move Manipulation"
 time: "1640 - 1645"
 ---

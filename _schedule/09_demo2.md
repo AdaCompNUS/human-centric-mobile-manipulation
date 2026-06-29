@@ -1,6 +1,6 @@
 ---
 sequence_id: 9
-speaker: TBD
+speaker: Hao Lu
 pi: Prof. Rahul Shome
 affil: Australian National University
 title: "Demo Talk 2 - TAMP for Execution in the Unknown and Uncertain"
