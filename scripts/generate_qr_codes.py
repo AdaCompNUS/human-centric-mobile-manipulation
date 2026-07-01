@@ -1,53 +1,45 @@
 #!/usr/bin/env python3
-"""Generate one QR code PNG per row in an Excel file of account/password pairs.
+"""Generate one QR code PNG per account in a JSON file of account/password pairs.
 
 Usage:
-    pip install qrcode[pil] openpyxl
-    python generate_qr_codes.py accounts.xlsx -o qr_out/
+    pip install qrcode[pil]
+    python generate_qr_codes.py _accounts.json -o qr_codes/
+
+The JSON file is a list of objects, each with at least:
+    {"username": ..., "email": ..., "password": ...}
 
 Each QR encodes a single line of plain text:
-    Username: <account> Password: <password>
+    Username: <username> Password: <password>
 
-PNG files are named qr_<account>.png (account sanitized for filesystem).
+PNG files are named qr_<username>.png (username sanitized for filesystem).
 """
 
 import argparse
+import json
 import re
 import sys
 from pathlib import Path
 
 import qrcode
-from openpyxl import load_workbook
 
 
 def sanitize_filename(name: str) -> str:
     return re.sub(r"[^A-Za-z0-9._-]+", "_", name).strip("_") or "account"
 
 
-def read_accounts(xlsx_path: Path):
-    wb = load_workbook(xlsx_path, read_only=True, data_only=True)
-    ws = wb[wb.sheetnames[0]]
+def read_accounts(json_path: Path):
+    with json_path.open(encoding="utf-8") as f:
+        data = json.load(f)
 
-    rows = ws.iter_rows(values_only=True)
-    header = next(rows, None)
-    if not header:
-        raise ValueError(f"{xlsx_path} has no header row")
+    if not isinstance(data, list):
+        raise ValueError(f"{json_path} must contain a JSON list of account objects")
 
-    headers_lower = [str(h).strip().lower() if h is not None else "" for h in header]
-    try:
-        acc_idx = headers_lower.index("account")
-        pw_idx = headers_lower.index("password")
-    except ValueError:
-        raise ValueError(
-            f"Expected columns 'account' and 'password' in the first sheet; "
-            f"got headers: {header}"
-        )
-
-    for row in rows:
-        if row is None:
+    for entry in data:
+        if not isinstance(entry, dict):
             continue
-        account = row[acc_idx]
-        password = row[pw_idx]
+        # Prefer the login identifier the user authenticates with.
+        account = entry.get("username") or entry.get("email")
+        password = entry.get("password")
         if account is None or password is None:
             continue
         account = str(account).strip()
@@ -72,22 +64,22 @@ def make_qr(payload: str, out_path: Path) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("xlsx", type=Path, help="Path to the Excel file")
+    parser.add_argument("accounts", type=Path, help="Path to the accounts JSON file")
     parser.add_argument(
         "-o", "--out-dir", type=Path, default=Path("qr_codes"),
         help="Output directory for PNGs (default: ./qr_codes)",
     )
     args = parser.parse_args()
 
-    if not args.xlsx.exists():
-        print(f"error: {args.xlsx} not found", file=sys.stderr)
+    if not args.accounts.exists():
+        print(f"error: {args.accounts} not found", file=sys.stderr)
         return 1
 
     args.out_dir.mkdir(parents=True, exist_ok=True)
 
     count = 0
     seen = set()
-    for account, password in read_accounts(args.xlsx):
+    for account, password in read_accounts(args.accounts):
         base = sanitize_filename(account)
         filename = f"qr_{base}.png"
         if filename in seen:

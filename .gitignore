@@ -20,3 +20,7 @@ vendor
 
 # Accidental copy of a home path; breaks Jekyll if present (duplicate output paths)
 Users/
+
+# Account credentials and generated QR codes (embed passwords) — never publish
+_accounts.json
+scripts/qr_codes/
