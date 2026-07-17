@@ -1,0 +1,26 @@
+- sequence_id: 1
+  name: Dr. Hanbo Zhang
+  webpage: https://zhanghanbo.github.io/
+  affil: National University of Singapore
+  affil_link: https://ssi.nus.edu.sg/#world
+  img: hanbo.jpg
+
+- sequence_id: 2
+  name: Koh Chun Keat
+  affil: National University of Singapore
+  affil_link: https://www.nus.edu.sg/
+  img: chunkeat.jpg
+
+- sequence_id: 3
+  name: Anxing Xiao
+  webpage: https://anxingxiao.com/
+  affil: National University of Singapore
+  affil_link: https://www.nus.edu.sg/
+  img: anxing.jpg
+
+- sequence_id: 4
+  name: Prof. David Hsu
+  webpage: https://www.comp.nus.edu.sg/~dyhsu/
+  affil: National University of Singapore
+  affil_link: https://www.nus.edu.sg/
+  img: david.png

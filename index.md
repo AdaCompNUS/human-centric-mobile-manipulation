@@ -16,6 +16,10 @@ image:
   </div>
 </section>
 
+<div style="border-left: 4px solid #1e6fd8; background: #eaf2fd; padding: 0.9rem 1.1rem; border-radius: 6px; margin: 1.25rem 0; color:#333; font-size: 1.05rem;">
+📹 You can join the workshop through <a href="https://nus-sg.zoom.us/j/85025340497?pwd=fMa1RmC78BnNsoKtX2Q7CQqFjwCVdO.1"><strong>ZOOM</strong></a>.
+</div>
+
 Can a robot effectively perform mobile manipulation tasks in real-world environments with humans? As mobile manipulators transition from controlled lab settings into human-centered environments such as homes, hospitals, and workplaces, they must not only navigate and manipulate objects, but also communicate and collaborate with humans in a safe, intuitive, and efficient manner. Despite recent advances in autonomous mobile manipulation, robots continue to struggle with two fundamental challenges. First, establishing intuitive and reliable human–robot interaction that allows humans to convey intent, provide feedback, and intervene when necessary. Second, planning and executing human-aware motion and manipulation behaviors that explicitly account for human presence, safety, comfort, and collaborative dynamics. Addressing these challenges is essential for enabling robots to operate as effective partners rather than isolated autonomous agents in real-world, human-centric environments. This workshop aims to bring together researchers and practitioners to develop a shared understanding of these challenges, explore emerging solutions, and identify promising research directions in human-centric mobile manipulation.
 
 In particular, this workshop aims to address the following questions:
@@ -95,5 +99,10 @@ Workshop demo submissions are now closed, but you can still contribute to <a hre
 ### <center>Organizing Committee</center>
 
 {% include people_grid.html people=site.organizers image_subdir="organizers" columns=5 %}
+
+<br>
+### <center>RoboMesh Development</center>
+
+{% include people_grid.html people=site.data.robomesh image_subdir="organizers" columns=5 %}
 
 <br>

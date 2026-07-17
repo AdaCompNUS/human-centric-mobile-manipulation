@@ -1,0 +1,11 @@
+Configuration file: /Users/zhanghanbo/research/human-centric-mobile-manipulation/_config.yml
+            Source: /Users/zhanghanbo/research/human-centric-mobile-manipulation
+       Destination: /Users/zhanghanbo/research/human-centric-mobile-manipulation/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.263 seconds.
+ Auto-regeneration: enabled for '/Users/zhanghanbo/research/human-centric-mobile-manipulation'
+    Server address: http://127.0.0.1:4000/human-centric-mobile-manipulation/
+  Server running... press ctrl-c to stop.
+[2026-07-17 12:07:46] ERROR '/favicon.ico' not found.
